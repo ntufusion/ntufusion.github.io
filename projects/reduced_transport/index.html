@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with twitter | NTU-CEA Joint Centre for Fusion Energy</title>
-    <meta name="author" content="  ">
-    <meta name="description" content="an example of a blog post with twitter">
+    <title>Reduced transport model | NTU Plasma Theory</title>
+    <meta name="author" content="  NTU Plasma Theory">
+    <meta name="description" content="AI-powered surrogate model for turbulence transport">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://ntufusion.github.io/blog/2020/twitter/">
+    <link rel="canonical" href="https://ntufusion.github.io/projects/reduced_transport/">
     
     <!-- Dark Mode -->
     
@@ -54,7 +54,7 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/">NTU-CEA Joint Centre for Fusion Energy</a>
+          <a class="navbar-brand title font-weight-lighter" href="/">NTU Plasma Theory</a>
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -72,8 +72,8 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Other pages -->
@@ -87,13 +87,15 @@
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/repositories/">repositories</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">teaching</a>
-              </li>
-              <li class="nav-item ">
                 <a class="nav-link" href="/_pages/join/">join</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">more</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/teaching/">teaching</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/repositories/">repositories</a>
+                </div>
               </li>
 
               <!-- Toogle theme mode -->
@@ -119,102 +121,63 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- _layouts/post.html -->
+      <!-- page.html -->
+        <div class="post">
 
-<div class="post">
+          <header class="post-header">
+            <h1 class="post-title">Reduced transport model</h1>
+            <p class="post-description">AI-powered surrogate model for turbulence transport</p>
+          </header>
 
-  <header class="post-header">
-    <h1 class="post-title">a post with twitter</h1>
-    <p class="post-meta">September 28, 2020</p>
-    <p class="post-tags">
-      <a href="/blog/2020"> <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-        ·  
-        <a href="/blog/tag/formatting">
-          <i class="fas fa-hashtag fa-sm"></i> formatting</a>  
-          
-        ·  
-        <a href="/blog/category/sample-posts">
-          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
-          <a href="/blog/category/external-services">
-          <i class="fas fa-tag fa-sm"></i> external-services</a>  
-          
+          <article>
+            <p>Although there exist high accuracy solvers able to describe the turbulent state of a plasma, simulations of fusion relevant conditions require leadership-class computational resources. It is therefore prohibitive to carry out broad parametric studies aimed at optimizing the design of a fusion device using full physics models.</p>
 
-    </p>
-  </header>
+<p>The major research goal of this project is to develop a reduced transport model that can quickly, but accurately, predict the overall performance of plasmas in any given configuration realized in toroidal devices. To fully exploit the capabilities of machine learning algorithms such as deep neural network (DNN) the present work will create and analyse a large database of plasma discharges from various devices and in a variety of configurations.</p>
 
-  <article class="post-content">
-    <p>A sample blog page that demonstrates the inclusion of Tweets/Timelines/etc.</p>
+<p>The project will rely on established international collaborations to identify and retrieve suitable data. Machine Learning algorithms have started to be employed by the fusion community as tools to construct models that use large datasets. Improvement is expected by training neural networks on a database built with results from linear or nonlinear gyrokinetic simulations. In particular, most recent developments in the field of Physics Informed Neural Network will be used for fluid modelling of plasma turbulence.</p>
 
-<h1 id="tweet">Tweet</h1>
-<p>An example of displaying a tweet:</p>
-<div class="jekyll-twitter-plugin">
-<blockquote class="twitter-tweet">
-<p lang="sv" dir="ltr">jekyll-twitter-plugin (1.0.0): A Liquid tag plugin for Jekyll that renders Tweets from Twitter API <a href="http://t.co/m4EIQPM9h4" rel="external nofollow noopener" target="_blank">http://t.co/m4EIQPM9h4</a></p>— RubyGems (@rubygems) <a href="https://twitter.com/rubygems/status/518821243320287232?ref_src=twsrc%5Etfw" rel="external nofollow noopener" target="_blank">October 5, 2014</a>
-</blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
-<h1 id="timeline">Timeline</h1>
-<p>An example of pulling from a timeline:</p>
-<div class="jekyll-twitter-plugin">
-<a class="twitter-timeline" data-width="500" data-tweet-limit="3" href="https://twitter.com/jekyllrb?ref_src=twsrc%5Etfw" rel="external nofollow noopener" target="_blank">Tweets by jekyllrb</a>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
-<h1 id="additional-details">Additional Details</h1>
-<p>For more details on using the plugin visit: <a href="https://github.com/rob-murray/jekyll-twitter-plugin" rel="external nofollow noopener" target="_blank">jekyll-twitter-plugin</a></p>
-
-  </article>
-
-
-  
+  <picture>
     
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2-1400.webp"></source>
+    
 
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  
+    <!-- Fallback to the original file -->
+    <img src="https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="gysela" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
-  </li>
+  </picture>
 
-  
+</figure>
 
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/giscus-comments/">a post with giscus comments</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/redirect/">a post with redirect</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/diagrams/">a post with diagrams</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/distill/">a distill-style blog post</a>
-  </li>
-
+    </div>
 </div>
+<div class="caption">
+    Demonstration of the <a href="https://gyselax.github.io/" rel="external nofollow noopener" target="_blank">GYSELA</a> code. 
+</div>
+
+<p><strong>Suitable for</strong> Ph.D, Master</p>
+
+<h3 id="contact">Contact</h3>
+<ul>
+  <li><a href="/people/Xavier">Prof. Xavier Garbet</a></li>
+  <li><a href="/people/Zhisong">Asst Prof. Zhisong Qu</a></li>
+</ul>
+
+          </article>
+
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023   . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+        © Copyright 2023   NTU Plasma Theory. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
 
       </div>
     </footer>
