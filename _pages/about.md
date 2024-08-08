@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>NTU Plasma Theory</a> ## (CEA).
 
@@ -15,8 +15,8 @@ profile:
     <p>Asst Prof. Zhisong Qu</p>
     <p><a href="mailto:zhisong.qu@ntu.edu.sg">zhisong.qu@ntu.edu.sg</a></p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---

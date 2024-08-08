@@ -1,11 +1,11 @@
 ---
 layout: page
 permalink: /people/
-title: people
+title: People
 description: Who we are.
 display_categories: [Faculty, Research Staff, Student, Alumni] 
 nav: true
-nav_order: 1
+nav_order: 2
 horizontal: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /join/
-title: join us
+title: Join us
 description: We are constantly looking for energetic new blood! 
 nav: true
 nav_order: 6
@@ -23,7 +23,7 @@ Please contact Prof. Xaver Garbet (xavier.garbet@ntu.edu.sg) or Asst Prof. Zhiso
 
 ## Research Positions 
 
-We have a number of positions availble.
+We have a number of positions available.
 
 | Job title                                 | | Contact  |
 | :-----------------------------------------|-| :--------------------------- |
