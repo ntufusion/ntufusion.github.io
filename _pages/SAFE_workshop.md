@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SAFFE Workshop
+title: SAFE Workshop
 nav: true
 nav_order: 1
 dropdown: true
