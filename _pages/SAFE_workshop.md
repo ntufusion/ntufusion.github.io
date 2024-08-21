@@ -8,6 +8,9 @@ children:
     - title: Venue
       permalink: /venue/
     - title: divider
+    - title: Schedule
+      permalink: /schedule/
+    - title: divider
     - title: Conference Dinner
       permalink: /conference_dinner/
 ---
