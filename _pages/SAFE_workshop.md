@@ -11,6 +11,6 @@ children:
     - title: Schedule
       permalink: /schedule/
     - title: divider
-    - title: Conference Dinner
+    - title: Networking Dinner
       permalink: /conference_dinner/
 ---
