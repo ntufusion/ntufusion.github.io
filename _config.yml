@@ -275,8 +275,8 @@ display_tags: ['images', 'general', 'mathdfsdfs', 'physics', 'code'] # this tags
 
 scholar:
 
-  last_name: [Garbet]
-  first_name: [Xavier]
+  last_name: [Garbet, Cho, Wan, Li, Zhang, Varennes]
+  first_name: [Xavier, Youngwoo, Chenguang, Kunpeng, Ruichen, Robin]
 
   style: apa
   locale: en
