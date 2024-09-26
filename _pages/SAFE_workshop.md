@@ -13,4 +13,7 @@ children:
     - title: divider
     - title: Networking Dinner
       permalink: /conference_dinner/
+    - title: divider
+    - title: Local tips
+      permalink: /tips/
 ---
