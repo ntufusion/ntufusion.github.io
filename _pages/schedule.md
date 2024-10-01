@@ -8,11 +8,11 @@ nav: false
 horizontal: true
 ---
 
-The detailed schedule of the workhop can be found [here.](/assets/pdf/safe_workshop/Agenda_SAFE_workshop.pdf)
+The detailed schedule of the workshop can be found [here](/assets/pdf/safe_workshop/Agenda_SAFE_workshop.pdf).
 
 A reduced version is displayed below:
 
-## **<font color="blue">Monday, 14 Oct 2024</font>**
+## **<font color="navy">Monday, 14 Oct 2024</font>**
 
 | 08:30 - 09:00 | | **Registration** |
 | 09:00 - 09:50 | | **Opening Ceremony** |
@@ -25,9 +25,9 @@ A reduced version is displayed below:
 | 15:30 - 16:00 | | **_<font color="grey"><u>Coffee Break</u></font>_** |
 | 16:00 - 16:20 | | **Mathematics and AI for Fusion (cont.)** |
 | 16:20 - 17:30 | | **Ph.D. Short Talks** |
-| 17:30 | | **End 1st Day and Dinner Banquet** |
+| 17:30 | | **End 1st Day, Networking Dinner** |
 
-## **<font color="blue">Tuesday, 15 Oct 2024</font>**
+## **<font color="navy">Tuesday, 15 Oct 2024</font>**
 
 | 09:00 - 09:10 | | **Intro: Logistics, Updates, News** |
 | 09:10 - 10:30 | | **AI and Modelling of Fusion Plasmas** |
