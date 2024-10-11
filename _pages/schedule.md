@@ -37,8 +37,8 @@ A reduced version is displayed below:
 | 13:30 - 14:30 | | **AI and Modelling of Fusion Plasmas (cont.)** |
 | 14:30 - 15:30 | | **Diagnostics for Fusion** |
 | 15:30 - 16:00 | | **_<font color="grey"><u>Coffee Break</u></font>_** |
-| 16:00 - 16:40 | | **Diagnostics for Fusion (cont.)** |
-| 16:40 - 17:00 | | **Closing** |
+| 16:00 - 16:20 | | **Diagnostics for Fusion (cont.)** |
+| 16:20 - 16:40 | | **Closing** |
 
 
 
