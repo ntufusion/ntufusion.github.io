@@ -6,8 +6,6 @@ subtitle: <a href='#'>NTU Plasma Theory</a> ## (CEA).
 
 profile:
   align: right
-  image: group_photo.JPG
-  image_circular: false # crops the image to make it circular
   address: >
     <p>Contact: </p>
     <p>Prof. Xavier Garbet</p>
@@ -21,12 +19,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+<img src="/assets/img/group_photo.JPG" width="580" height="auto">
+
 Climate change has become a main global challenge with countries committed to achieving carbon-neutrality by 2050. Nuclear fusion, a safe and potentially unlimited energy source, could provide the ultimate energy solution to our kind. 
 
 NTU has opened a new research area in theoretical and computational fusion plasma physics.
  At NTU, we endeavour to combine the power of traditional physics-based models, high-performance computer simulations and modern machine learning technologies to accelerate the realisation of fusion energy. 
 
 The group is located in Division of Physics and Applied Physics, School of Physical and Mathematical Sciences, Nanyang Technological University.
+
 
 Please feel free to reach out to one of [our faculty members](/people/).
 
