@@ -8,6 +8,7 @@ importance: 1
 category: Student
 profile:
     email: ngji0057@e.ntu.edu.sg
+    office: SPMS-PAP-03-22
 ---
 
 ### Biography 

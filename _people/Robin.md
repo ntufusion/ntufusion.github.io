@@ -8,7 +8,7 @@ importance: 1
 category: Research Staff
 profile:
     email: robin.varennes@ntu.edu.sg
-    office: SPMS-PAP-03-22a
+    office: SPMS-PAP-03-22
     orcid: 0000-0001-7509-7810
     align: right
 ---

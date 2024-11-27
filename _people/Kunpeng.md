@@ -8,7 +8,7 @@ importance: 1
 category: Research Staff
 profile:
     email: kunpeng.li@ntu.edu.sg
-    office: SPMS-PAP-03-22a
+    office: SPMS-PAP-03-22
     orcid: 0009-0001-4492-4737
     align: right
 ---
