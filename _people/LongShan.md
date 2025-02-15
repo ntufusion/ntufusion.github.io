@@ -13,7 +13,7 @@ profile:
 
 ### Biography 
 
-Chan Long Shan is a PhD student supervised by Professor Kyungtak in the School of Physical and Mathematical Sciences (SPMS) at Nanyang Technological University (NTU) from August 2025 onwards. He will be graduating as a bachelor majoring in physics with a minor in mathematics in July 2025 from NTU.
+Chan Long Shan is a PhD student in the School of Physical and Mathematical Sciences (SPMS) at Nanyang Technological University (NTU) from August 2025 onwards. He will be graduating as a bachelor majoring in physics with a minor in mathematics in July 2025 from NTU.
 
 ### Research Interests 
 
