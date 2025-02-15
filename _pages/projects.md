@@ -5,7 +5,7 @@ permalink: /projects/
 description: Our projects.
 nav: true
 nav_order: 2
-display_categories: [turbulence, EP]
+display_categories: [Turbulence, EP]
 horizontal: false
 ---
 
