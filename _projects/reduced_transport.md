@@ -6,7 +6,7 @@ img: https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe8
 importance: 1
 suitable: Ph.D, Master, Final Year, Internship
 contact: [Xavier, Zhisong]
-category: turbulence
+category: Turbulence
 ---
 
 Although there exist high accuracy solvers able to describe the turbulent state of a plasma, simulations of fusion relevant conditions require leadership-class computational resources. It is therefore prohibitive to carry out broad parametric studies aimed at optimizing the design of a fusion device using full physics models. 
