@@ -12,6 +12,8 @@ profile:
     <p><a href="mailto:xavier.garbet@ntu.edu.sg">xavier.garbet@ntu.edu.sg</a></p>
     <p>Asst Prof. Zhisong Qu</p>
     <p><a href="mailto:zhisong.qu@ntu.edu.sg">zhisong.qu@ntu.edu.sg</a></p>
+    <p>Asst Prof. Kyungtak Lim</p>
+    <p><a href="mailto:kyungtak.lim@ntu.edu.sg">kyungtak.lim@ntu.edu.sg</a></p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
