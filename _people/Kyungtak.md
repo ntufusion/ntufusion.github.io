@@ -8,7 +8,7 @@ importance: 2
 category: Faculty
 profile:
     email: kyungtak.lim@ntu.edu.sg
-    office: SPMS-PAP-05-07
+    office: SPMS-PAP-02-04A
     dr-ntu: https://dr.ntu.edu.sg/cris/rp/rp02553
     google-scholar: 
     orcid: 0000-0002-0174-2300
