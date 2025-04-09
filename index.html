@@ -190,7 +190,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
         <div class="author">
         
 
-        </div>
+        Chenguang Wan, Youngwoo Cho, Zhisong Qu, and
+          <span class="more-authors" title="click to view 7 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '7 more authors' ? 'Yann Camenen, Robin Varennes, Kyungtak Lim, Kunpeng Li, Jiangang Li, Yanlong Li, Xavier Garbet' : '7 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">7 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -217,7 +230,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Wan_2025</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{A high-fidelity surrogate model for the ion temperature gradient (ITG) instability using a small expensive simulation dataset}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wan, Chenguang and Cho, Youngwoo and Qu, Zhisong and Camenen, Yann and Varennes, Robin and Lim, Kyungtak and Li, Kunpeng and Li, Jiangang and Li, Yanlong and Garbet, Xavier}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">apr</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nucl. Fusion}</span><span class="p">,</span>
