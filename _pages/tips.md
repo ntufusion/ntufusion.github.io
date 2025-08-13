@@ -56,41 +56,6 @@ Credit card payment is generally accepted, but not necessarily guaranteed. To be
 ### Public Transit
 Public transit fares are paid at boarding **and** alighting from buses, and entry **and** exit from train stations. The most commonly used and most convenient mode is contactless payment (chipped card or mobile wallet).
 
-### Directions
-- From **Changi Airport** to:
-	- **SPMS NTU**: 21 Nanyang Link, Singapore 637371
-		1. Taxi: about 45 minutes
-		2. Public transit: about 2 hours
-			1. Take the MRT (Mass Rapid Transit) East-West (**<font color="green">green</font>**) Line from **Changi Airport** to **Boon Lay Station** (EW27).
-			2. From Boon Lay Bus Interchange, take bus **179** or **179A** (only available 0730-0930 and 1500-2000), and alight at **Academic Building South**. SPMS is a short walk away.
-
-	- **Grand Copthorne Waterfront Hotel**: 392 Havelock Rd, Singapore 169663
-		1. Taxi: about 30 minutes
-		2. Public transit: about 1 hour
-			1. Take the MRT East-West (**<font color="green">green</font>**) Line from **Changi Airport** to **Tiong Bahru Station** (EW17).
-			2. On the **Tiong Bahru Plaza** side, take bus **123** going towards Bukit Merah Bus Interchange. Alight at **Havelock Stn Exit 4** (5 stops), and the hotel is a short walk and road crossing away.
-
-	- **Genting Hotel Jurong**: 2 Town Hall Link, Singapore 608516
-		1. Taxi: about 45 minutes
-		2. Public transit: about 2 hours
-			1. Take the MRT East-West (**<font color="green">green</font>**) Line from **Changi Airport** to **Jurong East Station** (EW24).
-			2. From Jurong East, it's a short walk (about 10 minutes) or a quick taxi ride to Genting Hotel Jurong.
-
-- From **Grand Copthorne Waterfront Hotel** to:
-	- **SPMS NTU**: 21 Nanyang Link, Singapore 637371
-		1. Taxi: about 30 minutes
-		2. Public transit: about 1.5 hours
-			1. From **Grand Copthorne Hotel** bus stop (just in front of Grand Copthorne Waterfront Hotel), take bus **5** / **16** / **16M** / **195** / **195A** to **Opp Tiong Bahru Station**.
-			2. Take the MRT East-West (**<font color="green">green</font>**) Line from **Tiong Bahru Station** to **Boon Lay Station** (EW27).
-			3. From Boon Lay Bus Interchange, take bus **179** or **179A** (only available 0730-0930 and 1500-2000), and alight at **Academic Building South**. SPMS is a short walk away.
-
-- From **Genting Hotel Jurong** to:
-	- **Grand Copthorne Waterfront Hotel**: 392 Havelock Rd, Singapore 169663
-		1. Taxi: about 30 minutes
-		2. Public transit: about 1 hour (may be crowded during rush hour)
-			1. Take the MRT East-West (**<font color="green">green</font>**) Line from **Jurong East Station** to **Tiong Bahru Station** (EW17).
-			2. On the **Tiong Bahru Plaza** side, take bus **123** going towards Bukit Merah Bus Interchange. Alight at **Havelock Stn Exit 4** (5 stops), and the hotel is a short walk and road crossing away.
-
 ## Emergency Contact Numbers
 Police: **999**
 

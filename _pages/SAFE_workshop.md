@@ -16,7 +16,4 @@ children:
     - title: divider
     - title: List of Participants
       permalink: /list_attendants/
-    - title: divider
-    - title: Local tips
-      permalink: /tips/
 ---

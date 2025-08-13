@@ -5,9 +5,12 @@ nav: true
 nav_order: 7
 dropdown: true
 children: 
-    - title: teaching
+    - title: Teaching
       permalink: /teaching/
     - title: divider
-    - title: repositories
+    - title: Repositories
       permalink: /repositories/
+    - title: divider
+    - title: Local tips
+      permalink: /tips/
 ---
