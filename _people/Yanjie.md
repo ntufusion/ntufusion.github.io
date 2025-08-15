@@ -7,7 +7,7 @@ img: assets/img/people/Yanjie.jpeg
 importance: 1
 category: Research Staff
 profile:
-    email: youngwoo.cho@ntu.edu.sg
+    email: Yanjie.Zhang@ntu.edu.sg
     office: SPMS-PAP-03-22
     align: right
 ---
