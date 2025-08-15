@@ -5,12 +5,7 @@ title: Dr. Robin Varennes
 description: Research Fellow
 img: assets/img/people/varennes.jpg
 importance: 1
-category: Research Staff
-profile:
-    email: robin.varennes@ntu.edu.sg
-    office: SPMS-PAP-03-22
-    orcid: 0000-0001-7509-7810
-    align: right
+category: Alumni
 ---
 
 ### Biography
