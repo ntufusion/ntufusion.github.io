@@ -6,7 +6,9 @@ description: Project Officer
 img: assets/img/people/Samuel.png
 importance: 1
 category: Student
-email: samuel.chngks@ntu.edu.sg
+profile:
+    email: samuel.chngks@ntu.edu.sg
+    office: SPMS-PAP-03-22
 ---
 
 ### Biography 
