@@ -5,7 +5,7 @@ title: Dr. Robin Varennes
 description: Research Fellow
 img: assets/img/people/varennes.jpg
 importance: 1
-category: Alumni
+category: 
 ---
 
 ### Biography
