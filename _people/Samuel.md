@@ -5,7 +5,7 @@ title: Samuel Chng Keng Soon
 description: Project Officer
 img: assets/img/people/Samuel.png
 importance: 1
-category: Student
+category: Staff
 profile:
     email: samuel.chngks@ntu.edu.sg
     office: SPMS-PAP-03-22
