@@ -3,7 +3,7 @@ layout: page
 permalink: /people/
 title: People
 description: Who we are.
-display_categories: [Faculty, Research Staff, Student, Alumni] 
+display_categories: [Faculty, Research Staff, Student, Staff, Alumni] 
 nav: true
 nav_order: 2
 horizontal: true
