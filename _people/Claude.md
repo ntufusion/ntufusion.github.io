@@ -3,7 +3,7 @@ layout: page_people
 name: Claude
 title: Prof. Claude Guet
 description: Visting Professor at NTU
-img: https://www.ntu.edu.sg/images/librariesprovider123/spms-headshots/pap_claude-guet_photo_resized.jpg
+img: assets/img/people/Claude.png
 importance: 2
 category: Faculty
 profile:

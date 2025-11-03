@@ -3,7 +3,7 @@ layout: page_people
 name: Xavier
 title: Prof. Xavier Garbet
 description: Professor at NTU, Research Director at CEA
-img: https://www.ntu.edu.sg/images/librariesprovider123/spms-headshots/xavier-garbet-photo-id-(240).tmb-0.jpg
+img: assets/img/people/Garbet.jpg
 importance: 1
 category: Faculty
 profile:

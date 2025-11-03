@@ -3,7 +3,7 @@ layout: page_people
 name: Zhisong
 title: Asst Prof. Zhisong Qu
 description: Assistant Professor at NTU
-img: https://www.ntu.edu.sg/images/librariesprovider123/spms-headshots/qu-zhisong.tmb-0.jpg
+img: assets/img/people/Qu.jpg
 importance: 2
 category: Faculty
 profile:
