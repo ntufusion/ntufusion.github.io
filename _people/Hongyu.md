@@ -8,6 +8,7 @@ importance: 1
 category: Student
 profile:
     email: hongyu014@e.ntu.edu.sg
+    office: SPMS-PAP-03-22
 ---
 
 ### Biography 
