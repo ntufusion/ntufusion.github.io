@@ -24,5 +24,5 @@ Dr. Haotian Mao is a research fellow in the School of Physical and Mathematical 
 - UC-National Laboratory In-Residence Graduate Fellowships
 
 ### Selected Publications
-- H. Mao, K. Weichman, Z. Gong, T. Ditmire, H. Quevedo and A. Arefiev. “Emission of electromagnetic waves as a stopping mechanism for nonlinear collisionless ionization wave in a high-𝛽regime”, Physical Review E 103, 023209 (2021)
+- H. Mao, K. Weichman, Z. Gong, T. Ditmire, H. Quevedo and A. Arefiev. “Emission of electromagnetic waves as a stopping mechanism for nonlinear collisionless ionization wave in a high-𝛽 regime”, Physical Review E 103, 023209 (2021)
 - Y. Zhang, H. Mao, Y. Li, X. -Z. Tang. “Similarity for downscaled kinetic simulations of electrostatic plasmas: reconciling the large system size with small Debye length”, Physics of Plasmas 32, 040702 (2025)
