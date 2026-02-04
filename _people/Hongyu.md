@@ -3,7 +3,7 @@ layout: page_people
 name: Hongyu
 title: Sun Hongyu
 description: PhD student
-img: assets/img/people/Hongyu.jpeg
+img: assets/img/people/Hongyu.jpg
 importance: 1
 category: Student
 profile:
