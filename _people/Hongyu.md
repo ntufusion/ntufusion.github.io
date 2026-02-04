@@ -21,4 +21,4 @@ Sun Hongyu is working on gyrokinetic modeling of impurity transport and its cont
 
 ### Selected Publications
 
-- Sun, H., Ma, J., Zhao, Y., Tao, W., Liu, Q., The co-excitation of electrostatic ion-cyclotron wave and ion Bernstein-like wave launched from a grid, Plasma Sci. Technol. 27 035001
+- Sun, H., Ma, J., Zhao, Y., Tao, W., Liu, Q. (2025). The co-excitation of electrostatic ion-cyclotron wave and ion Bernstein-like wave launched from a grid. Plasma Sci. Technol. 27 035001 
