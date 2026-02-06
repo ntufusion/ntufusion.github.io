@@ -9,3 +9,13 @@
 "NF":
   url: https://iopscience.iop.org/journal/0029-5515
   color: "#0577b9"
+
+"JPP":
+  url: https://www.cambridge.org/core/journals/journal-of-plasma-physics
+  color: "#B45309"
+
+
+# Slate gray (minimalist): #334155
+# Dark green (classic, serious): #1B5E20
+# Royal purple (journal-y + memorable): #5B2C83
+# Deep teal (calm + distinct): #0B6E6E
