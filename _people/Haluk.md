@@ -1,7 +1,7 @@
 ---
 layout: page_people
 name: Haluk
-title: Aksoy Haluk Sait
+title: Haluk Sait Aksoy
 description: PhD student
 img: assets/img/people/Haluk.jpeg
 importance: 1
