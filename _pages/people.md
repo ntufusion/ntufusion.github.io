@@ -2,7 +2,7 @@
 layout: page
 permalink: /people/
 title: People
-description: Who we are.
+description: Our faculty, research fellows, students working together on fusion and plasma physics.
 display_categories: [Faculty, Research Staff, Student, Staff, Alumni] 
 nav: true
 nav_order: 2
