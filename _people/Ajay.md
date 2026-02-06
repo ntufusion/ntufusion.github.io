@@ -1,7 +1,7 @@
 ---
 layout: page_people
 name: Ajay
-title: Dr. Ajay C. J.
+title: Dr. Ajay Chandrarajan Jayalekshmi
 description: Research Fellow
 #img: assets/img/people/Yanjie.jpeg
 importance: 1
