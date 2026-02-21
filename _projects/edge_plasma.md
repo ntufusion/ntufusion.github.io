@@ -15,7 +15,7 @@ This project aims to improve the physics understanding of edge plasma turbulence
 
 Below are the possible interesting topics to address within our NTU fusion group:
 
-- Boundyar plasma turbulence
+- Boundary plasma turbulence
 - Effects of alternative divertor configurations (ADCs)
 - Plasma detachment and exhuast physics
 - Impurity transport in edge/SOL plasmas
