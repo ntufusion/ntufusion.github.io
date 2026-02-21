@@ -4,17 +4,16 @@ title: Impurity transport
 description: Understanding impurity transport in fusion devices
 #img: https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png
 importance: 1
-suitable: Ph.D, Master, Final Year, Internship
-contact: [Kyungtak]
+suitable: Postdoctoral researchers, PhD students, Master’s students, final-year undergraduate students, and interns
+contact: [Xavier, Zhisong, Kyungtak]
 category: Turbulence
 ---
 
-Although there exist high accuracy solvers able to describe the turbulent state of a plasma, simulations of fusion relevant conditions require leadership-class computational resources. It is therefore prohibitive to carry out broad parametric studies aimed at optimizing the design of a fusion device using full physics models. 
+Impurity transport is a central issue in magnetically confined fusion plasmas because impurity accumulation can lead to fuel dilution and enhanced radiative losses, thereby degrading plasma performance. Understanding impurity behavior in reactor-relevant conditions requires accurate modelling of both turbulent and neoclassical transport processes across a wide range of plasma parameters and magnetic configurations.
 
-The major research goal of this project is to develop a reduced transport model that can quickly, but accurately, predict the overall performance of plasmas in any given configuration realized in toroidal devices. To fully exploit the capabilities of machine learning algorithms such as deep neural network (DNN) the present work will create and analyse a large database of plasma discharges from various devices and in a variety of configurations. 
+The main goal of this project is to improve the physics understanding of impurity transport in fusion devices by combining first-principles gyrokinetic modelling with systematic analysis of transport mechanisms. In particular, the project will use the GYSELA code to investigate how turbulence, collisional effects, and magnetic geometry influence impurity fluxes, peaking, and redistribution for different impurity species and operating regimes.
 
- The project will rely on established international collaborations to identify and retrieve suitable data. Machine Learning algorithms have started to be employed by the fusion community as tools to construct models that use large datasets. Improvement is expected by training neural networks on a database built with results from linear or nonlinear gyrokinetic simulations. In particular, most recent developments in the field of Physics Informed Neural Network will be used for fluid modelling of plasma turbulence.
-
+Because high-fidelity gyrokinetic simulations are computationally demanding, the project will rely on targeted numerical campaigns and comparative studies to identify robust trends and key controlling parameters. The work will be supported by international collaborations for benchmarking and interpretation, with the broader objective of improving predictive capability for impurity transport in present and future fusion devices.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
