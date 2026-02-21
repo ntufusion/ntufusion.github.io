@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Our projects.
+description: Below are the research projects currently available within our group. We welcome applications from motivated students and researchers interested in joining these efforts.
 nav: true
 nav_order: 2
-display_categories: [Turbulence, EP]
+display_categories: [Turbulence, AI]
 horizontal: false
 ---
 
