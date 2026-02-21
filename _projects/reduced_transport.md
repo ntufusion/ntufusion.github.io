@@ -5,7 +5,7 @@ description: AI-powered surrogate model for turbulence transport
 img: https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png
 importance: 1
 suitable: Ph.D, Master, Final Year, Internship
-contact: [Xavier, Zhisong]
+contact: [Xavier, Zhisong, Kyungtak]
 category: Turbulence
 ---
 
