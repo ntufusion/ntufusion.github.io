@@ -2,7 +2,7 @@
 layout: page_project
 title: Impurity transport
 description: Understanding impurity transport in fusion devices
-img: https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png
+#img: https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png
 importance: 1
 suitable: Ph.D, Master, Final Year, Internship
 contact: [Kyungtak]
