@@ -14,6 +14,9 @@
   url: https://www.cambridge.org/core/journals/journal-of-plasma-physics
   color: "#B45309"
 
+"HAL":
+  url: https://pubs.aip.org/aip/pop
+  color: "#0B6E6E"
 
 # Slate gray (minimalist): #334155
 # Dark green (classic, serious): #1B5E20
