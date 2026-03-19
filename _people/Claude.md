@@ -14,15 +14,13 @@ profile:
 ---
 
 ### Biography
-Dr Claude Guet is a Visiting Professor and Students & Research Programme Director at Energy Research Institute at NTU (ERI@N).
+Claude Guet is currently a Visiting Professor at the School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore. His career has developed mainly at the French CEA (Atomic Energy Commission), where he has held several senior positions, including Senior Advisor to the CEO, Chief of Staff to the High Commissioner for Atomic Energy, Director of Nuclear Education and Training, Chief Scientist of the Defence Division, and Head of the Department of Theoretical Physics within the Defence Division. 
 
-He is Senior Advisor to the CEO of CEA (French Alternative Energies and Atomic Energy Commission). At CEA he had been the Chief of Staff of the High Commissioner for Atomic Energy, Director of Nuclear Education and Training, Chief of Science of the Defence Division, Head of the Department of Theoretical Physics of the Defence Division, Head of the Atomic Physics Laboratory of the Basic Science Division.
+At NTU, which he joined in 2012, he has been instrumental in establishing several partnerships between NTU and France, including the Joint Research Centres SCARCE and SAFE. 
 
-Holding a Doctorat d’Etat from University Joseph Fourier in Grenoble, he conducted his research activities at: CEA, Institut Laue Langevin, Institute of Theoretical Physics at Regensburg, the Niels Bohr Institute in Copenhagen, Institute for Theoretical Atomic and Molecular Physics at Harvard, Yukawa Institute of Theoretical Physics at Kyoto. 
+He holds a Doctorat d’État from Université Joseph Fourier in Grenoble. His research over the past 40 years has focused on quantum many-body physics and semiclassical approximations applied to nuclear, atomic, and plasma physics, as well as nanophysics. More recently, he has engaged in research on machine learning for dynamical systems and nonlinear fluid mechanics. 
 
-His research achievements include theoretical and experimental contributions to nuclear physics, atomic physics and nanophysics. He is the author or co-author of more than 100 peer-reviewed papers with more than 4000 citations and an H-index of 34.
-
-Today, Claude Guet devotes special attention to science and technology for energy research as a whole, and to education and training in energy science and technology.
+He has authored or co-authored more than 140 peer-reviewed papers, with over 8,300 citations and an H-index of 43.
 
 ### Awards
 - Chevalier dans l’ordre de la Légion d’honneur
