@@ -14,6 +14,8 @@ profile:
     <p><a href="mailto:zhisong.qu@ntu.edu.sg">zhisong.qu@ntu.edu.sg</a></p>
     <p>Asst Prof. Kyungtak Lim</p>
     <p><a href="mailto:kyungtak.lim@ntu.edu.sg">kyungtak.lim@ntu.edu.sg</a></p>
+    <p>Adj. Asst Prof. Valerian Hall-Chen</p>
+    <p><a href="mailto:valerian.hallchen@ntu.edu.sg">valerian.hallchen@ntu.edu.sg</a></p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
