@@ -182,7 +182,15 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <span class="more-authors" title="click to view 16 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '16 more authors' ? 'M. Go, R. Bigu’e, P. Donnel, K. Obrejan, Y. W. Ban, L. De Gianni, G. Dif-Pradalier, X. Garbet, V. Grandgirard, K. Lim, J. Y. Ng, S. Raj, Y. Sarazin, E. Sonnendr" ucker r. varennes c. g. wan : more authors var cursorposition="0;" textadder="setInterval(function(){" element.text if more_authors_text.length clearinterval>16 more authors</span>
+                var more_authors_text = element.text() == '16 more authors' ? 'M. Go, R. Bigué, P. Donnel, K. Obrejan, Y. W. Ban, L. De Gianni, G. Dif-Pradalier, X. Garbet, V. Grandgirard, K. Lim, J. Y. Ng, S. Raj, Y. Sarazin, E. Sonnendrücker, R. Varennes, C. G. Wan' : '16 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">16 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -214,7 +222,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{563}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{115070}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Qu, Z. S. and Cho, Y. W. and Chai, C. K. and Go, M. and Bigu{'e}, R. and Donnel, P. and Obrejan, K. and Ban, Y. W. and {De Gianni}, L. and Dif-Pradalier, G. and Garbet, X. and Grandgirard, V. and Lim, K. and Ng, J. Y. and Raj, S. and Sarazin, Y. and Sonnendr{"u}cker, E. and Varennes, R. and Wan, C. G.}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Qu, Z. S. and Cho, Y. W. and Chai, C. K. and Go, M. and Bigué, R. and Donnel, P. and Obrejan, K. and Ban, Y. W. and {De Gianni}, L. and Dif-Pradalier, G. and Garbet, X. and Grandgirard, V. and Lim, K. and Ng, J. Y. and Raj, S. and Sarazin, Y. and Sonnendrücker, E. and Varennes, R. and Wan, C. G.}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Computational Physics}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
