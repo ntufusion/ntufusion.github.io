@@ -18,6 +18,18 @@
   url: https://pubs.aip.org/aip/pop
   color: "#1B5E20"
 
+"JCP":
+  url: https://www.sciencedirect.com/journal/journal-of-computational-physics
+  color: "#6A5ACD"   # slate purple
+
+"PST":
+  url: https://iopscience.iop.org/journal/1009-0630
+  color: "#008B8B"   # dark teal
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#B31B1B"   # arXiv-style dark red
+
 # Slate gray (minimalist): #334155
 # Dark green (classic, serious): #1B5E20
 # Royal purple (journal-y + memorable): #5B2C83
