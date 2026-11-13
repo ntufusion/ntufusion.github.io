@@ -11,7 +11,7 @@ region: Plasma core
 img_caption: GYSELA gyrokinetic simulation
 summary: Energetic particles heat the plasma and drive current, but they also interact with turbulence and can help suppress it. Using first-principles gyrokinetic simulations with GYSELA, this project studies how energetic particles, turbulence and modes such as EGAMs and Alfvén eigenmodes interact, and what that means for confinement.
 topics: [Turbulence, Gyrokinetics, GYSELA, Alfvén eigenmodes, EGAMs]
-open_to: [Postdoc, PhD, Master's, Final-year, Intern]
+open_to: [Postdoc, PhD, Master's, Final-year]
 ---
 
 Energetic particles play an important role in magnetically confined fusion plasmas, not only as a key channel for plasma heating and current drive, but also through their nonlinear interaction with microturbulence and meso-scale fluctuations. In reactor-relevant regimes, these interactions can significantly modify turbulent transport and, under certain conditions, contribute to turbulence suppression and improved confinement.

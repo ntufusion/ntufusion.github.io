@@ -11,7 +11,7 @@ region: Edge, SOL & divertor
 img_caption: 3D fluid simulation, GBS code
 summary: Turbulence at the plasma edge sets how heat and particles reach the wall. With three-dimensional fluid modelling, this project studies edge and scrape-off-layer turbulence, detachment and exhaust, blobs, plasma–neutral interactions and alternative divertor configurations.
 topics: [Turbulence, 3D fluid modelling, Scrape-off layer, Divertor & exhaust, Blobs]
-open_to: [Postdoc, PhD, Master's, Final-year, Intern]
+open_to: [Postdoc, PhD, Master's, Final-year]
 ---
 
 Edge plasma turbulence is a key issue in magnetically confined fusion plasmas because it strongly affects cross-field transport, heat and particle exhaust, and overall confinement. Predictive modeling of turbulence in the edge and scrape-off layer (SOL) is therefore essential for reactor-relevant conditions.

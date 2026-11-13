@@ -11,7 +11,7 @@ region: Whole plasma
 img_caption: Training data from gyrokinetic simulations
 summary: Full turbulence simulations are too expensive for wide design scans. This project builds machine-learning surrogate models, including deep and physics-informed neural networks, trained on large databases of gyrokinetic simulations and discharges, to predict plasma performance in seconds.
 topics: [AI, Machine learning, Neural networks, PINNs, Surrogate models]
-open_to: [PhD, Master's, Final-year, Intern]
+open_to: [PhD, Master's, Final-year]
 ---
 
 Although there exist high accuracy solvers able to describe the turbulent state of a plasma, simulations of fusion relevant conditions require leadership-class computational resources. It is therefore prohibitive to carry out broad parametric studies aimed at optimizing the design of a fusion device using full physics models. 

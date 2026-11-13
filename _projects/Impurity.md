@@ -11,7 +11,7 @@ region: Core → edge
 img_caption: GYSELA gyrokinetic simulation
 summary: Impurities that build up in the core dilute the fuel and radiate energy away. This project uses gyrokinetic simulations with GYSELA to find how turbulence, collisions and magnetic geometry drive impurity fluxes, peaking and redistribution for different species and operating regimes.
 topics: [Turbulence, Gyrokinetics, GYSELA, Neoclassical transport, Impurity species]
-open_to: [Postdoc, PhD, Master's, Final-year, Intern]
+open_to: [Postdoc, PhD, Master's, Final-year]
 ---
 
 Impurity transport is a central issue in magnetically confined fusion plasmas because impurity accumulation can lead to fuel dilution and enhanced radiative losses, thereby degrading plasma performance. Understanding impurity behavior in reactor-relevant conditions requires accurate modelling of both turbulent and neoclassical transport processes across a wide range of plasma parameters and magnetic configurations.
