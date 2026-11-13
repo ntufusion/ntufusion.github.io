@@ -55,7 +55,7 @@
     <meta property="og:locale" content="{{ site.lang }}" />
 
     <!-- Twitter card -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ title }}{%- endif -%}" />
     <meta name="twitter:description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
     {% if page.og_image or site.og_image -%}
@@ -192,8 +192,8 @@
       {
         "author":
         {
-          "@type": "Person",
-          "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
+          "@type": "Organization",
+          "name": "{{ site.title }}"
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "@type": "WebSite",
@@ -202,7 +202,7 @@
         {% if sameaslinks != blank -%}
         "sameAs": {{ sameaslinks }},
         {%- endif %}
-        "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
+        "name": "{{ site.title }}",
         "@context": "https://schema.org"
       }
     </script>
