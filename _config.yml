@@ -15,7 +15,7 @@ footer_text: >
 keywords: fusion energy, plasma physics, plasma theory, computational plasma physics, tokamak, turbulence, transport, gyrokinetics, energetic particles, impurities, machine learning, NTU, Nanyang Technological University, Singapore
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: prof_pic.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://ntufusion.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
