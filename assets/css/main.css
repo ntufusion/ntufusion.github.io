@@ -494,6 +494,16 @@ footer.sticky-bottom {
   width: 300px;
   margin-bottom: 10px;
 }
+.projects.three-cols .grid-sizer,
+.projects.three-cols .grid-item {
+  width: calc((100% - 20px) / 3);
+}
+@media (max-width: 576px) {
+  .projects.three-cols .grid-sizer,
+  .projects.three-cols .grid-item {
+    width: 100%;
+  }
+}
 .projects h2.category {
   color: var(--global-text-color);
   border-bottom: 1px solid var(--global-divider-color);
