@@ -3,7 +3,7 @@ layout: page_people
 name: Kyungtak
 title: Asst Prof. Kyungtak Lim
 description: Assistant Professor at NTU
-img: assets/img/people/lim.png
+img: assets/img/people/lim.jpg
 importance: 2
 category: Faculty
 profile:

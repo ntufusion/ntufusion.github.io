@@ -3,7 +3,7 @@ layout: page_people
 name: Shrish
 title: Dr. Shrish Raj
 description: Research Fellow
-img: assets/img/people/raj.png
+img: assets/img/people/raj.jpg
 importance: 1
 category: Research Staff
 profile:
