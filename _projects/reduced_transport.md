@@ -2,11 +2,11 @@
 layout: page_project
 title: Reduced transport model
 description: AI-powered surrogate model for turbulence transport
-img: https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png
+img: assets/img/project/gysela.jpg
 importance: 1
-suitable: Ph.D, Master, Final Year, Internship
+suitable: PhD students, Master’s students, final-year undergraduate students, and interns
 contact: [Xavier, Zhisong, Kyungtak]
-category: Turbulence
+category: AI
 ---
 
 Although there exist high accuracy solvers able to describe the turbulent state of a plasma, simulations of fusion relevant conditions require leadership-class computational resources. It is therefore prohibitive to carry out broad parametric studies aimed at optimizing the design of a fusion device using full physics models. 
@@ -18,7 +18,7 @@ The major research goal of this project is to develop a reduced transport model 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png" title="gysela" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project/gysela.jpg" title="gysela" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

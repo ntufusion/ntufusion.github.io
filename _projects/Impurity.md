@@ -2,8 +2,8 @@
 layout: page_project
 title: Impurity transport
 description: Understanding impurity transport in fusion devices
-#img: https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png
-importance: 1
+img: assets/img/project/gysela.jpg
+importance: 2
 suitable: Postdoctoral researchers, PhD students, Master’s students, final-year undergraduate students, and interns
 contact: [Xavier, Zhisong, Kyungtak]
 category: Turbulence
@@ -17,7 +17,7 @@ Because high-fidelity gyrokinetic simulations are computationally demanding, the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png" title="gysela" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project/gysela.jpg" title="gysela" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -2,8 +2,8 @@
 layout: page_project
 title: Edge plasma turbulence
 description: Three-dimensional fluid modeling of edge plasma turbulence
-#img: https://gyselax.github.io/media/GYSELA_simu_hu2cd80fa9de07f75943f96ae0efbe83ce_1057076_1200x0_resize_lanczos_2.png
-importance: 1
+img: assets/img/project/GBS.jpg
+importance: 3
 suitable: Postdoctoral researchers, PhD students, Master’s students, final-year undergraduate students, and interns
 contact: [Kyungtak]
 category: Turbulence
@@ -17,7 +17,7 @@ Below are the possible interesting topics to address within our NTU fusion group
 
 - Boundary plasma turbulence
 - Effects of alternative divertor configurations (ADCs)
-- Plasma detachment and exhuast physics
+- Plasma detachment and exhaust physics
 - Impurity transport in edge/SOL plasmas
 - Blob dynamics and intermittent transport
 - Plasma-neutral interactions
