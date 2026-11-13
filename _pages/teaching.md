@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Courses taught by our group members at NTU.
+description: Undergraduate and graduate courses in plasma physics, plasma astrophysics and fusion energy, taught by our faculty at NTU.
 display_categories: [NTU] 
 nav: true
 nav_order: 5
