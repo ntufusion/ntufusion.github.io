@@ -544,6 +544,35 @@ footer.sticky-bottom {
   }
 
   // Same-size thumbnails (teaching page only): crop images to one aspect ratio
+  // Teaching: equal-height cards in a CSS grid (no Masonry), so text boxes line up too
+  &.uniform-thumbs .grid-equal {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+
+    .grid-sizer {
+      display: none;
+    }
+
+    .grid-item {
+      width: auto;
+      margin-bottom: 0;
+
+      > a {
+        display: block;
+        height: 100%;
+      }
+    }
+
+    .card {
+      height: 100%;
+    }
+
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
   // Same-size card images: the figure is a fixed 3:2 box and the image fills it, cropped
   &.uniform-thumbs .card {
     figure {
