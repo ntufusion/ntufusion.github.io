@@ -2,7 +2,7 @@
 layout: page_people
 name: Claude
 title: Prof. Claude Guet
-description: Visting Professor at NTU
+description: Visiting Professor at NTU
 img: assets/img/people/Claude.png
 importance: 2
 category: Faculty
