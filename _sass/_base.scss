@@ -533,11 +533,30 @@ footer.sticky-bottom {
   }
 
   // Same-size thumbnails (teaching page only): crop images to one aspect ratio
-  &.uniform-thumbs .card img {
-    display: block;
-    height: auto;
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
+  // Same-size card images: the figure is a fixed 3:2 box and the image fills it, cropped
+  &.uniform-thumbs .card {
+    figure {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-top: 66.6667%; // 3:2 box that works in every browser
+      margin: 0;
+      overflow: hidden;
+    }
+
+    figure picture,
+    figure img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    figure img {
+      max-width: 100%;
+      object-fit: cover;
+    }
   }
 
   ul.alumni {
