@@ -13,7 +13,6 @@ We are a theoretical and computational plasma physics group in the School of Phy
 
 - **Turbulence and transport** in the plasma core, using gyrokinetic simulations with GYSELA
 - **Edge and divertor physics**, using three-dimensional fluid simulations
-- **Energetic particles and impurities** and how they interact with turbulence
 - **AI and reduced models**: fast surrogate models trained on simulation and experimental data
 
 Our current projects are described on the [Projects](/projects/) page. You are also welcome to propose your own topic.
