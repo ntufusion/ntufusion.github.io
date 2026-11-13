@@ -505,6 +505,12 @@ footer.sticky-bottom {
     width: 100%;
   }
 }
+.projects.uniform-thumbs .card img {
+  display: block;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
 .projects ul.alumni {
   padding-left: 1.25rem;
 }
