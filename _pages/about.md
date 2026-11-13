@@ -22,7 +22,6 @@ We are a theoretical and computational plasma physics group in the Division of P
 
 - **Turbulence and transport** in the plasma core, using gyrokinetic simulations
 - **Edge and divertor physics**, using three-dimensional fluid simulations
-- **Energetic particles and impurities** and how they interact with turbulence
 - **AI and reduced models** that predict plasma behaviour in seconds
 
 Read more on our [Projects](/projects/) page, or meet the team on the [People](/people/) page.
