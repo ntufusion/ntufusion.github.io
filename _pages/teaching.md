@@ -11,7 +11,7 @@ horizontal: false
 
 <div class="project">
 
-<div class="projects">
+<div class="projects three-cols">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}

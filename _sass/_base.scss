@@ -516,6 +516,21 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
+  // Three equal columns (used on the teaching page); 10px Masonry gutters
+  &.three-cols {
+    .grid-sizer,
+    .grid-item {
+      width: calc((100% - 20px) / 3);
+    }
+
+    @media (max-width: 576px) {
+      .grid-sizer,
+      .grid-item {
+        width: 100%;
+      }
+    }
+  }
+
   h2.category {
     color: var(--global-text-color);
     border-bottom: 1px solid var(--global-divider-color);
