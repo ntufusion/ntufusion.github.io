@@ -578,7 +578,7 @@ footer.sticky-bottom {
 }
 
 
-// Projects page: full-width project rows (picture + summary, tags, open-to badges, contacts)
+// Projects page: full-width project rows (picture + summary, topics, open-to badges)
 .projects-intro {
   color: var(--global-text-color-light);
   margin-bottom: 0;
@@ -667,14 +667,12 @@ footer.sticky-bottom {
   // The theme sets width: 100% on every div/li/p; undo it so chips and the meta blocks sit side by side
   .project-row-tags li,
   .project-row-open li,
-  .project-row-who li,
   .project-row-meta > div {
     width: auto;
   }
 
   .project-row-tags,
-  .project-row-open,
-  .project-row-who {
+  .project-row-open {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -702,31 +700,6 @@ footer.sticky-bottom {
     border: 1px solid var(--global-theme-color);
     color: var(--global-theme-color);
     border-radius: 4px;
-  }
-
-  .project-row-who {
-    gap: 0.5rem 0.9rem;
-
-    a {
-      display: flex;
-      align-items: center;
-      gap: 0.45rem;
-      font-size: 0.85rem;
-      color: var(--global-text-color);
-
-      &:hover {
-        color: var(--global-theme-color);
-        text-decoration: none;
-      }
-    }
-
-    img {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      object-fit: cover;
-      object-position: top;
-    }
   }
 
   .project-row-more {

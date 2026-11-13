@@ -8,7 +8,7 @@ nav_order: 2
 horizontal: false
 ---
 
-<p class="projects-intro">Interested in a project? Contact the people listed on it, or see <a href="{{ '/join/' | relative_url }}">Join us</a>.</p>
+<p class="projects-intro">Interested in a project? Open it to find who to contact, or see <a href="{{ '/join/' | relative_url }}">Join us</a>.</p>
 
 <!-- pages/projects.md: one full-width row per project, grouped by category -->
 <div class="projects project-rows">

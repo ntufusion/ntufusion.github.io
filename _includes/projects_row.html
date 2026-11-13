@@ -1,4 +1,4 @@
-<!-- _includes/projects_row.html: one full-width project row (picture + summary, tags, open-to badges, contacts) -->
+<!-- _includes/projects_row.html: one full-width project row (picture + summary, topics, open-to badges) -->
 {%- assign project_link = project.url | relative_url -%}
 {%- if project.redirect -%}{%- assign project_link = project.redirect -%}{%- endif -%}
 <article class="project-row{% if flip %} flip{% endif %}" id="{{ project.url | split: '/' | last | slugify }}">
@@ -30,24 +30,6 @@
         <ul class="project-row-open">
           {%- for level in project.open_to %}
           <li>{{ level }}</li>
-          {%- endfor %}
-        </ul>
-      </div>
-      {%- endif %}
-      {%- if project.contact %}
-      <div>
-        <p class="project-row-label">Contact</p>
-        <ul class="project-row-who">
-          {%- for contact in project.contact %}
-          {%- assign person = site.people | where: "name", contact | first %}
-          {%- if person %}
-          <li>
-            <a href="{{ person.url | relative_url }}">
-              {%- if person.img %}<img src="{{ person.img | relative_url }}" alt="" width="36" height="36" loading="lazy">{% endif -%}
-              <span>{{ person.title }}</span>
-            </a>
-          </li>
-          {%- endif %}
           {%- endfor %}
         </ul>
       </div>
