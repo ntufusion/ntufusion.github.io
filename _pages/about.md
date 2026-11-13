@@ -27,17 +27,6 @@ We are a theoretical and computational plasma physics group in the Division of P
 
 Read more on our [Projects](/projects/) page, or meet the team on the [People](/people/) page.
 
-## Join us
-
-We are looking for PhD students, and welcome Master's and Final Year Project students at NTU. See [Join us](/join/) for details.
-
-## Contact
-
-- [Prof. Xavier Garbet](/people/Xavier/): [xavier.garbet@ntu.edu.sg](mailto:xavier.garbet@ntu.edu.sg)
-- [Asst Prof. Zhisong Qu](/people/Zhisong/): [zhisong.qu@ntu.edu.sg](mailto:zhisong.qu@ntu.edu.sg)
-- [Asst Prof. Kyungtak Lim](/people/Kyungtak/): [kyungtak.lim@ntu.edu.sg](mailto:kyungtak.lim@ntu.edu.sg)
-- [Adj. Asst Prof. Valerian Hall-Chen](/people/Valerian/): [valerian.hallchen@ntu.edu.sg](mailto:valerian.hallchen@ntu.edu.sg)
-
 <!-- <img src="https://www.nrf.gov.sg/Assets/Images/Nrf/Common/nrf_logo.png" alt= “NRF” width="300" height="100">
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/TemasekHoldings_logo.svg/2560px-TemasekHoldings_logo.svg.png" alt= “NRF” width="300">
