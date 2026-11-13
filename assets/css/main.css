@@ -613,13 +613,11 @@ footer.sticky-bottom {
 }
 .projects.project-rows .project-row-tags li,
 .projects.project-rows .project-row-open li,
-.projects.project-rows .project-row-who li,
 .projects.project-rows .project-row-meta > div {
   width: auto;
 }
 .projects.project-rows .project-row-tags,
-.projects.project-rows .project-row-open,
-.projects.project-rows .project-row-who {
+.projects.project-rows .project-row-open {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -644,27 +642,6 @@ footer.sticky-bottom {
   border: 1px solid var(--global-theme-color);
   color: var(--global-theme-color);
   border-radius: 4px;
-}
-.projects.project-rows .project-row-who {
-  gap: 0.5rem 0.9rem;
-}
-.projects.project-rows .project-row-who a {
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
-  font-size: 0.85rem;
-  color: var(--global-text-color);
-}
-.projects.project-rows .project-row-who a:hover {
-  color: var(--global-theme-color);
-  text-decoration: none;
-}
-.projects.project-rows .project-row-who img {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: top;
 }
 .projects.project-rows .project-row-more {
   font-weight: 500;
