@@ -532,6 +532,14 @@ footer.sticky-bottom {
     }
   }
 
+  // Same-size thumbnails (teaching page only): crop images to one aspect ratio
+  &.uniform-thumbs .card img {
+    display: block;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
+
   ul.alumni {
     padding-left: 1.25rem;
 
