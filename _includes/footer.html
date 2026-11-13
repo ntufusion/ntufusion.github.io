@@ -1,9 +1,6 @@
     {% if site.footer_fixed %}
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        <span class="visit-counter">
-          <img src="https://hits.sh/ntufusion.github.io.svg?label=visits&style=flat-square&color=6c757d&labelColor=343a40" alt="Visit count" height="16">
-        </span>
         &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
@@ -16,9 +13,6 @@
     {%- else -%}
     <footer class="sticky-bottom mt-5">
       <div class="container">
-        <span class="visit-counter">
-          <img src="https://hits.sh/ntufusion.github.io.svg?label=visits&style=flat-square&color=6c757d&labelColor=343a40" alt="Visit count" height="16">
-        </span>
         &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
