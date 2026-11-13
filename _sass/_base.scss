@@ -543,6 +543,17 @@ footer.sticky-bottom {
 }
 
 
+// Visit counter in the footer's bottom-right corner
+footer .visit-counter {
+  float: right;
+  line-height: 1;
+  margin-left: 0.5rem;
+
+  img {
+    vertical-align: middle;
+  }
+}
+
 // Publications
 
 .publications {
