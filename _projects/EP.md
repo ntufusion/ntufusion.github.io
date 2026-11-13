@@ -10,7 +10,7 @@ category: Turbulence
 region: Plasma core
 img_caption: GYSELA gyrokinetic simulation
 summary: Energetic particles heat the plasma and drive current, but they also interact with turbulence and can help suppress it. Using first-principles gyrokinetic simulations with GYSELA, this project studies how energetic particles, turbulence and modes such as EGAMs and Alfvén eigenmodes interact, and what that means for confinement.
-topics: [Gyrokinetics, GYSELA, Alfvén eigenmodes, EGAMs]
+topics: [Turbulence, Gyrokinetics, GYSELA, Alfvén eigenmodes, EGAMs]
 open_to: [Postdoc, PhD, Master's, Final-year, Intern]
 ---
 

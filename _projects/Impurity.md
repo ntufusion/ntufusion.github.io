@@ -10,7 +10,7 @@ category: Turbulence
 region: Core → edge
 img_caption: GYSELA gyrokinetic simulation
 summary: Impurities that build up in the core dilute the fuel and radiate energy away. This project uses gyrokinetic simulations with GYSELA to find how turbulence, collisions and magnetic geometry drive impurity fluxes, peaking and redistribution for different species and operating regimes.
-topics: [Gyrokinetics, GYSELA, Neoclassical transport, Impurity species]
+topics: [Turbulence, Gyrokinetics, GYSELA, Neoclassical transport, Impurity species]
 open_to: [Postdoc, PhD, Master's, Final-year, Intern]
 ---
 

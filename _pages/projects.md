@@ -5,7 +5,6 @@ permalink: /projects/
 description: Research projects currently open in our group. We welcome motivated students and researchers interested in joining these efforts.
 nav: true
 nav_order: 2
-display_categories: [Turbulence, AI]
 horizontal: false
 ---
 

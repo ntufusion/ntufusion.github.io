@@ -10,7 +10,7 @@ category: Turbulence
 region: Edge, SOL & divertor
 img_caption: 3D fluid simulation, GBS code
 summary: Turbulence at the plasma edge sets how heat and particles reach the wall. With three-dimensional fluid modelling, this project studies edge and scrape-off-layer turbulence, detachment and exhaust, blobs, plasma–neutral interactions and alternative divertor configurations.
-topics: [3D fluid modelling, Scrape-off layer, Divertor & exhaust, Blobs]
+topics: [Turbulence, 3D fluid modelling, Scrape-off layer, Divertor & exhaust, Blobs]
 open_to: [Postdoc, PhD, Master's, Final-year, Intern]
 ---
 

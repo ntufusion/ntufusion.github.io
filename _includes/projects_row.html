@@ -11,7 +11,9 @@
   </figure>
   {%- endif %}
   <div class="project-row-body">
-    <p class="project-row-eyebrow">{{ project.category }}{% if project.region %} &middot; {{ project.region }}{% endif %}</p>
+    {%- if project.region %}
+    <p class="project-row-eyebrow">{{ project.region }}</p>
+    {%- endif %}
     <h3><a href="{{ project_link }}">{{ project.title }}</a></h3>
     <p class="project-row-summary">{% if project.summary %}{{ project.summary }}{% else %}{{ project.description }}{% endif %}</p>
     {%- if project.topics %}

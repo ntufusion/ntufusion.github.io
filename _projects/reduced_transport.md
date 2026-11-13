@@ -3,14 +3,14 @@ layout: page_project
 title: Reduced transport model
 description: AI-powered surrogate model for turbulence transport
 img: assets/img/project/gysela.jpg
-importance: 1
+importance: 4
 suitable: PhD students, Master’s students, final-year undergraduate students, and interns
 contact: [Xavier, Zhisong, Kyungtak]
 category: AI
 region: Whole plasma
 img_caption: Training data from gyrokinetic simulations
 summary: Full turbulence simulations are too expensive for wide design scans. This project builds machine-learning surrogate models, including deep and physics-informed neural networks, trained on large databases of gyrokinetic simulations and discharges, to predict plasma performance in seconds.
-topics: [Machine learning, Neural networks, PINNs, Surrogate models]
+topics: [AI, Machine learning, Neural networks, PINNs, Surrogate models]
 open_to: [PhD, Master's, Final-year, Intern]
 ---
 
