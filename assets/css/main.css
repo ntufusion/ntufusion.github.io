@@ -514,6 +514,30 @@ footer.sticky-bottom {
     width: 100%;
   }
 }
+.projects.uniform-thumbs .grid-equal {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.projects.uniform-thumbs .grid-equal .grid-sizer {
+  display: none;
+}
+.projects.uniform-thumbs .grid-equal .grid-item {
+  width: auto;
+  margin-bottom: 0;
+}
+.projects.uniform-thumbs .grid-equal .grid-item > a {
+  display: block;
+  height: 100%;
+}
+.projects.uniform-thumbs .grid-equal .card {
+  height: 100%;
+}
+@media (max-width: 576px) {
+  .projects.uniform-thumbs .grid-equal {
+    grid-template-columns: 1fr;
+  }
+}
 .projects.uniform-thumbs .card figure {
   position: relative;
   width: 100%;
