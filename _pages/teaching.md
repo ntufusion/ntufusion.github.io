@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for coures.
+title: Teaching
+description: Courses taught by our group members at NTU.
 display_categories: [NTU] 
-nav: false
+nav: true
 nav_order: 5
 horizontal: false
 ---
