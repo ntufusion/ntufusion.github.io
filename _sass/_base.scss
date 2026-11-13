@@ -126,6 +126,17 @@ blockquote {
   }
 }
 
+// Home page group photo: full content width
+.group-photo {
+  margin: 0 0 1.5rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+}
+
 .profile.float-right {
   margin-left: 1rem;
 }

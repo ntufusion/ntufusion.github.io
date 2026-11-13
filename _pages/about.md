@@ -2,20 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Theoretical and Computational Plasma Physics, Nanyang Technological University
-
-profile:
-  align: right
-  address: >
-    <p>Contact: </p>
-    <p>Prof. Xavier Garbet</p>
-    <p><a href="mailto:xavier.garbet@ntu.edu.sg">xavier.garbet@ntu.edu.sg</a></p>
-    <p>Asst Prof. Zhisong Qu</p>
-    <p><a href="mailto:zhisong.qu@ntu.edu.sg">zhisong.qu@ntu.edu.sg</a></p>
-    <p>Asst Prof. Kyungtak Lim</p>
-    <p><a href="mailto:kyungtak.lim@ntu.edu.sg">kyungtak.lim@ntu.edu.sg</a></p>
-    <p>Adj. Asst Prof. Valerian Hall-Chen</p>
-    <p><a href="mailto:valerian.hallchen@ntu.edu.sg">valerian.hallchen@ntu.edu.sg</a></p>
+subtitle: School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -23,18 +10,33 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<img src="/assets/img/group_photo.JPG" width="580" height="auto">
+<figure class="group-photo">
+  <img src="{{ '/assets/img/group_photo.JPG' | relative_url }}" alt="Members of the NTU Plasma Theory group in front of the School of Physical and Mathematical Sciences building" data-zoomable>
+</figure>
 
-Climate change has become a main global challenge with countries committed to achieving carbon-neutrality by 2050. Nuclear fusion, a safe and potentially unlimited energy source, could provide the ultimate energy solution to our kind. 
+Fusion energy could provide clean, safe and nearly unlimited power, and help the world reach carbon neutrality. Getting there requires a deep understanding of how hot, magnetised plasmas behave.
 
-NTU has opened a new research area in theoretical and computational fusion plasma physics.
- At NTU, we endeavour to combine the power of traditional physics-based models, high-performance computer simulations and modern machine learning technologies to accelerate the realisation of fusion energy. 
+We are a theoretical and computational plasma physics group in the Division of Physics and Applied Physics at NTU. We combine physics-based models, high-performance simulations and machine learning to understand and predict fusion plasmas, and to help design future fusion devices.
 
-The group is located in Division of Physics and Applied Physics, School of Physical and Mathematical Sciences, Nanyang Technological University.
+## Our research
 
+- **Turbulence and transport** in the plasma core, using gyrokinetic simulations
+- **Edge and divertor physics**, using three-dimensional fluid simulations
+- **Energetic particles and impurities** and how they interact with turbulence
+- **AI and reduced models** that predict plasma behaviour in seconds
 
-Please feel free to reach out to one of [our faculty members](/people/).
+Read more on our [Projects](/projects/) page, or meet the team on the [People](/people/) page.
 
+## Join us
+
+We are looking for PhD students, and welcome Master's and Final Year Project students at NTU. See [Join us](/join/) for details.
+
+## Contact
+
+- [Prof. Xavier Garbet](/people/Xavier/): [xavier.garbet@ntu.edu.sg](mailto:xavier.garbet@ntu.edu.sg)
+- [Asst Prof. Zhisong Qu](/people/Zhisong/): [zhisong.qu@ntu.edu.sg](mailto:zhisong.qu@ntu.edu.sg)
+- [Asst Prof. Kyungtak Lim](/people/Kyungtak/): [kyungtak.lim@ntu.edu.sg](mailto:kyungtak.lim@ntu.edu.sg)
+- [Adj. Asst Prof. Valerian Hall-Chen](/people/Valerian/): [valerian.hallchen@ntu.edu.sg](mailto:valerian.hallchen@ntu.edu.sg)
 
 <!-- <img src="https://www.nrf.gov.sg/Assets/Images/Nrf/Common/nrf_logo.png" alt= “NRF” width="300" height="100">
 
