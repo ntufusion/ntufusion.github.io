@@ -2,57 +2,36 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Below are the research projects currently available within our group. We welcome applications from motivated students and researchers interested in joining these efforts.
+description: Research projects currently open in our group. We welcome motivated students and researchers interested in joining these efforts.
 nav: true
 nav_order: 2
 display_categories: [Turbulence, AI]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects three-cols">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
+<p class="projects-intro">Interested in a project? Contact the people listed on it, or see <a href="{{ '/join/' | relative_url }}">Join us</a>.</p>
 
+<!-- pages/projects.md: one full-width row per project, grouped by category -->
+<div class="projects project-rows">
+{%- if site.enable_project_categories and page.display_categories %}
+  {%- for category in page.display_categories %}
+  {%- assign categorized_projects = site.projects | where: "category", category -%}
+  {%- if categorized_projects.size > 0 %}
+  <h2 class="category">{{ category }}</h2>
+  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  {%- for project in sorted_projects %}
+    {%- assign flip = forloop.index0 | modulo: 2 %}
+    {%- if flip == 1 %}{% assign flip = true %}{% else %}{% assign flip = false %}{% endif %}
+    {% include projects_row.html %}
+  {%- endfor %}
+  {%- endif %}
+  {%- endfor %}
 {%- else -%}
-<!-- Display projects without categories -->
   {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-{%- endif -%}
+  {%- for project in sorted_projects %}
+    {%- assign flip = forloop.index0 | modulo: 2 %}
+    {%- if flip == 1 %}{% assign flip = true %}{% else %}{% assign flip = false %}{% endif %}
+    {% include projects_row.html %}
+  {%- endfor %}
+{%- endif %}
 </div>
