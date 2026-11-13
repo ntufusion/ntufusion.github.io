@@ -3,7 +3,7 @@ layout: page
 permalink: /people/
 title: People
 description: Our faculty, research fellows, students working together on fusion and plasma physics.
-display_categories: [Faculty, Research Staff, Student, Staff, Alumni] 
+display_categories: [Faculty, Research Staff, Student, Staff]
 nav: true
 nav_order: 2
 horizontal: true
@@ -34,6 +34,16 @@ horizontal: true
   </div>
   {%- endif -%}
   {% endfor %}
+
+  {%- if site.data.alumni %}
+  <!-- Former members: compact list from _data/alumni.yml -->
+  <h2 class="category">Alumni</h2>
+  <ul class="alumni">
+    {%- for person in site.data.alumni %}
+    <li><strong>{{ person.name }}</strong> &mdash; {{ person.role }} ({{ person.years }}){% if person.next %}, now {{ person.next }}{% endif %}</li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
 
 {%- else -%}
 <!-- Display projects without categories -->

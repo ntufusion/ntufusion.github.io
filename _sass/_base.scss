@@ -532,6 +532,14 @@ footer.sticky-bottom {
     }
   }
 
+  ul.alumni {
+    padding-left: 1.25rem;
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+  }
+
   h2.category {
     color: var(--global-text-color);
     border-bottom: 1px solid var(--global-divider-color);

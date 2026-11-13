@@ -1,0 +1,8 @@
+# Former group members, shown as a list under "Alumni" on the People page.
+# Fields: name, role (in the group), years, and optional next (current position).
+- name: Dr. Robin Varennes
+  role: Research Fellow
+  years: 2023–2025
+- name: Dr. Youngwoo Cho
+  role: Research Fellow
+  years: 2023–2026
