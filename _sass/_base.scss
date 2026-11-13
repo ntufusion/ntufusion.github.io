@@ -209,6 +209,7 @@ blockquote {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    white-space: nowrap; // keep multi-word items like "Join us" on one line
 
     &:hover {
       color: var(--global-hover-color);
