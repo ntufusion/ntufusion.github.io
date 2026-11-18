@@ -4,7 +4,7 @@ title: Reduced transport model
 description: AI-powered surrogate model for turbulence transport
 img: assets/img/project/tokam2d-density.png
 importance: 4
-suitable: PhD students, Master’s students, final-year undergraduate students, and interns
+suitable: PhD students, Master’s students, and final-year undergraduate students
 contact: [Xavier, Zhisong, Kyungtak]
 category: AI
 region: Whole plasma

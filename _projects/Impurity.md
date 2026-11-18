@@ -4,7 +4,7 @@ title: Impurity transport
 description: Understanding impurity transport in fusion devices
 img: assets/img/project/gysela.jpg
 importance: 2
-suitable: Postdoctoral researchers, PhD students, Master’s students, final-year undergraduate students, and interns
+suitable: Postdoctoral researchers, PhD students, Master’s students, and final-year undergraduate students
 contact: [Xavier, Zhisong, Kyungtak]
 category: Turbulence
 region: Core → edge

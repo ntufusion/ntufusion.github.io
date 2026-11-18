@@ -4,7 +4,7 @@ title: Edge plasma turbulence
 description: Three-dimensional fluid modeling of edge plasma turbulence
 img: assets/img/project/GBS.jpg
 importance: 3
-suitable: Postdoctoral researchers, PhD students, Master’s students, final-year undergraduate students, and interns
+suitable: Postdoctoral researchers, PhD students, Master’s students, and final-year undergraduate students
 contact: [Kyungtak]
 category: Turbulence
 region: Edge, SOL & divertor

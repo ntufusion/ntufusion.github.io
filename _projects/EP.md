@@ -4,7 +4,7 @@ title: Energetic particles in fusion plasmas
 description: Understanding how energetic particles interact with and regulate plasma turbulence
 img: assets/img/project/gysela.jpg
 importance: 1
-suitable: Postdoctoral researchers, PhD students, Master’s students, final-year undergraduate students, and interns
+suitable: Postdoctoral researchers, PhD students, Master’s students, and final-year undergraduate students
 contact: [Xavier, Zhisong]
 category: Turbulence
 region: Plasma core
