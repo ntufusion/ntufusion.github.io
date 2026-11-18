@@ -227,7 +227,8 @@ blockquote {
   display: block;
   width: 100%;
   aspect-ratio: 3/2;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--global-divider-color);
   border-radius: 6px;
   cursor: zoom-in;
 }
