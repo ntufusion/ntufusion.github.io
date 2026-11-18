@@ -165,11 +165,9 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 collections:
-  # news:
-  #   defaults:
-  #     layout: post
-  #   output: true
-  #   permalink: /news/:path/
+  news:
+    output: true # rendered so the home page can show each item (inline)
+    permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -180,10 +178,7 @@ collections:
     output: true
     permalink: /people/:path/
 
-news:
-  enabled: false
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+news_limit: 5 # how many of the newest items from _news/ the home page shows
 
 latest_posts:
   enabled: false
