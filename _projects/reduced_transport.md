@@ -2,13 +2,13 @@
 layout: page_project
 title: Reduced transport model
 description: AI-powered surrogate model for turbulence transport
-img: assets/img/project/gysela.jpg
+img: assets/img/project/tokam2d-density.png
 importance: 4
 suitable: PhD students, Master’s students, final-year undergraduate students, and interns
 contact: [Xavier, Zhisong, Kyungtak]
 category: AI
 region: Whole plasma
-img_caption: Training data from gyrokinetic simulations
+img_caption: Density fluctuations in a Tokam2D turbulence simulation
 summary: Full turbulence simulations are too expensive for wide design scans. This project builds machine-learning surrogate models, including deep and physics-informed neural networks, trained on large databases of gyrokinetic simulations and discharges, to predict plasma performance in seconds.
 topics: [AI, Machine learning, Neural networks, PINNs, Surrogate models]
 open_to: [PhD, Master's, Final-year]
@@ -23,9 +23,9 @@ The major research goal of this project is to develop a reduced transport model 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/gysela.jpg" title="gysela" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project/tokam2d-density.png" title="tokam2d" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Demonstration of the <a href="https://gyselax.github.io/">GYSELA</a> code. 
+    Density fluctuations in a scrape-off-layer turbulence simulation with the <a href="https://github.com/gyselax/tokam2d">Tokam2D</a> code (image from the Tokam2D repository, MIT licence).
 </div>
