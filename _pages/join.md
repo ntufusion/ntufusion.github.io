@@ -4,7 +4,7 @@ permalink: /join/
 title: Join us
 description: We welcome PhD students, Master's and undergraduate students, and postdoctoral researchers who want to work on the theory and simulation of fusion plasmas.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 We are a theoretical and computational plasma physics group in the School of Physical and Mathematical Sciences (SPMS) at Nanyang Technological University, Singapore. We combine physics-based models, high-performance simulations and machine learning to help make fusion energy a reality.
