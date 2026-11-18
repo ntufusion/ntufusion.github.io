@@ -150,7 +150,8 @@ blockquote {
     display: block;
     width: 100%;
     aspect-ratio: 3 / 2;
-    object-fit: cover; // tiles share one shape; clicking shows the whole photo
+    object-fit: contain; // whole photo always visible (zooming enlarges the tile as shown, so no cropping)
+    background: var(--global-divider-color); // fills the sides of photos that aren't 3:2
     border-radius: 6px;
     cursor: zoom-in;
   }
