@@ -7,7 +7,4 @@ dropdown: true
 children: 
     - title: Repositories
       permalink: /repositories/
-    - title: divider
-    - title: Local tips
-      permalink: /tips/
 ---
