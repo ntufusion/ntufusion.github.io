@@ -202,6 +202,52 @@ blockquote {
   margin: 0;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 1rem;
+}
+.gallery .gallery-album-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0;
+}
+.gallery .gallery-album-date {
+  margin: 0.15rem 0 0.9rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+.gallery .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.gallery .gallery-grid.single {
+  grid-template-columns: 1fr;
+}
+.gallery .gallery-photo {
+  margin: 0;
+}
+.gallery .gallery-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  cursor: zoom-in;
+}
+.gallery .gallery-photo figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+.gallery .gallery-grid:not(.single) .gallery-photo img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
 .group-photo {
   margin: 0 0 1.5rem;
 }
