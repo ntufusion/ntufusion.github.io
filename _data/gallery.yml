@@ -7,6 +7,12 @@
 #
 # Fields: title (album name), date (shown under the title), photos (file + caption for each).
 
+- title: Group photo with French colleagues
+  date: November 2026
+  photos:
+    - file: 2026-11-group-photo-with-french-colleagues.jpg
+      caption: The group with visiting colleagues from France
+
 - title: Group photo
   date: November 2025
   photos:
