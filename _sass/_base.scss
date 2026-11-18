@@ -126,59 +126,51 @@ blockquote {
   }
 }
 
-// Gallery page: albums of photos, newest first (data in _data/gallery.yml)
-.gallery {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
+// Gallery page: one grid of same-shape tiles, 3 per row (data in _data/gallery.yml)
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem 1rem;
   margin-top: 1rem;
 
-  .gallery-album-title {
-    font-size: 1.4rem;
-    font-weight: 400;
-    margin: 0;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .gallery-album-date {
-    margin: 0.15rem 0 0.9rem;
-    font-size: 0.8rem;
-    letter-spacing: 0.08em;
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gallery-tile {
+  margin: 0;
+  width: auto; // the theme forces width: 100% on many elements
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover; // tiles share one shape; clicking shows the whole photo
+    border-radius: 6px;
+    cursor: zoom-in;
+  }
+
+  figcaption {
+    margin-top: 0.45rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.35;
+  }
+
+  .gallery-tile-title {
+    font-size: 0.95rem;
+  }
+
+  .gallery-tile-date {
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--global-text-color-light);
-  }
-
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1rem;
-
-    &.single {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  .gallery-photo {
-    margin: 0;
-
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-      border-radius: 6px;
-      cursor: zoom-in;
-    }
-
-    figcaption {
-      margin-top: 0.4rem;
-      font-size: 0.85rem;
-      color: var(--global-text-color-light);
-    }
-  }
-
-  // Photos in a multi-photo album share one shape so the grid stays tidy; click to see the whole photo
-  .gallery-grid:not(.single) .gallery-photo img {
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
   }
 }
 

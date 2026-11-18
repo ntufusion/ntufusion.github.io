@@ -7,21 +7,17 @@ nav: true
 nav_order: 6
 ---
 
-<div class="gallery">
+<!-- One grid of same-shape tiles, newest first; click a photo to see all of it -->
+<div class="gallery-grid">
 {%- for album in site.data.gallery %}
-  <section class="gallery-album">
-    <h2 class="gallery-album-title">{{ album.title }}</h2>
-    {%- if album.date %}<p class="gallery-album-date">{{ album.date }}</p>{% endif %}
-    <div class="gallery-grid{% if album.photos.size == 1 %} single{% endif %}">
-      {%- for photo in album.photos %}
-      <figure class="gallery-photo">
-        <img src="{{ photo.file | prepend: '/assets/img/gallery/' | relative_url }}" alt="{{ photo.caption | default: album.title }}" loading="lazy" data-zoomable>
-        {%- if photo.caption %}
-        <figcaption>{{ photo.caption }}</figcaption>
-        {%- endif %}
-      </figure>
-      {%- endfor %}
-    </div>
-  </section>
+  {%- for photo in album.photos %}
+  <figure class="gallery-tile">
+    <img src="{{ photo.file | prepend: '/assets/img/gallery/' | relative_url }}" alt="{{ photo.caption | default: album.title }}" title="{{ photo.caption | default: album.title }}" loading="lazy" data-zoomable>
+    <figcaption>
+      <span class="gallery-tile-title">{{ album.title }}</span>
+      {%- if album.date %}<span class="gallery-tile-date">{{ album.date }}</span>{% endif %}
+    </figcaption>
+  </figure>
+  {%- endfor %}
 {%- endfor %}
 </div>
