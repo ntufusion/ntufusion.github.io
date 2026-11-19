@@ -11,17 +11,9 @@ nav_order: 1
 
 <div class="publications">
 
-{%- capture preprints %}{% bibliography -f papers -q @*[is_preprint=true]* %}{% endcapture %}
-{%- if preprints contains 'class="row"' %}
-  <section class="pub-group">
-  <h2 class="year">Preprints</h2>
-  {{ preprints }}
-  </section>
-{%- endif %}
-
 {%- assign this_year = site.time | date: "%Y" | plus: 0 %}
 {%- for y in (page.first_year..this_year) reversed %}
-  {%- capture year_pubs %}{% bibliography -f papers -q @*[year={{y}}, is_preprint!=true]* %}{% endcapture %}
+  {%- capture year_pubs %}{% bibliography -f papers -q @*[year={{y}}]* %}{% endcapture %}
   {%- if year_pubs contains 'class="row"' %}
   <section class="pub-group">
   <h2 class="year">{{ y }}</h2>
@@ -30,7 +22,7 @@ nav_order: 1
   {%- endif %}
 {%- endfor %}
 
-{%- capture older_pubs %}{% bibliography -f papers -q @*[year<{{ page.first_year }}, is_preprint!=true]* %}{% endcapture %}
+{%- capture older_pubs %}{% bibliography -f papers -q @*[year<{{ page.first_year }}]* %}{% endcapture %}
 {%- if older_pubs contains 'class="row"' %}
   <section class="pub-group">
   <h2 class="year">Before {{ page.first_year }}</h2>
