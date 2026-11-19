@@ -891,6 +891,15 @@ footer.sticky-bottom {
           }
         }
 
+        // Group members link to their People page: plain text colour, just underlined
+        a.group-author,
+        a.group-author:hover {
+          color: inherit;
+          font-weight: inherit;
+          border-bottom: none;
+          text-decoration: underline;
+        }
+
         >em {
           border-bottom: 1px solid;
           font-style: normal;
