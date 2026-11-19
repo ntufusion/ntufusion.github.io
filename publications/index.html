@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Publications | NTU Plasma Theory</title>
     <meta name="author" content="  NTU Plasma Theory">
-    <meta name="description" content="Publications by categories in reversed chronological order.">
+    <meta name="description" content="Publications by year, most recent first. Group members are shown in bold.">
     <meta name="keywords" content="fusion energy, plasma physics, plasma theory, computational plasma physics, tokamak, turbulence, transport, gyrokinetics, energetic particles, impurities, machine learning, NTU, Nanyang Technological University, Singapore">
 
     <!-- OpenGraph -->
@@ -20,14 +20,14 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="NTU Plasma Theory | Publications">
     <meta property="og:url" content="https://ntufusion.github.io/publications/">
-    <meta property="og:description" content="Publications by categories in reversed chronological order.">
+    <meta property="og:description" content="Publications by year, most recent first. Group members are shown in bold.">
     <meta property="og:image" content="https://ntufusion.github.io/assets/img/group_photo.JPG">
     <meta property="og:locale" content="en">
 
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Publications">
-    <meta name="twitter:description" content="Publications by categories in reversed chronological order.">
+    <meta name="twitter:description" content="Publications by year, most recent first. Group members are shown in bold.">
     <meta name="twitter:image" content="https://ntufusion.github.io/assets/img/group_photo.JPG">
     
 
@@ -41,7 +41,7 @@
         },
         "url": "https://ntufusion.github.io/publications/",
         "@type": "WebSite",
-        "description": "Publications by categories in reversed chronological order.",
+        "description": "Publications by year, most recent first. Group members are shown in bold.",
         "headline": "Publications",
         
         "name": "NTU Plasma Theory",
@@ -158,17 +158,27 @@
 
           <header class="post-header">
             <h1 class="post-title">Publications</h1>
-            <p class="post-description">Publications by categories in reversed chronological order.</p>
+            <p class="post-description">Publications by year, most recent first. Group members are shown in bold.</p>
           </header>
 
           <article>
             <!-- _pages/publications.md -->
+
+<div class="pub-filter" role="group" aria-label="Filter publications by research area">
+  <button type="button" class="pub-filter-btn active" data-topic="all" aria-pressed="true">All</button>
+  <button type="button" class="pub-filter-btn" data-topic="core" aria-pressed="false">Core turbulence &amp; transport</button>
+  <button type="button" class="pub-filter-btn" data-topic="edge" aria-pressed="false">Edge &amp; SOL</button>
+  <button type="button" class="pub-filter-btn" data-topic="mhd" aria-pressed="false">MHD &amp; energetic particles</button>
+  <button type="button" class="pub-filter-btn" data-topic="ai" aria-pressed="false">AI &amp; data-driven models</button>
+</div>
+
 <div class="publications">
-  <h2 class="year">2026</h2>
+  <section class="pub-group">
+  <h2 class="year">Preprints</h2>
   <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="core">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#B31B1B"><a href="https://arxiv.org/" rel="external nofollow noopener" target="_blank">arXiv</a></abbr></div>
 
         <!-- Entry bib key -->
@@ -179,7 +189,7 @@
         <div class="author">
         
 
-        Y. Ban, <em>X. Garbet</em>, <em>R. Varennes</em>, and
+        <strong class="group-author">Y. Ban</strong>, <strong class="group-author">X. Garbet</strong>, <strong class="group-author">R. Varennes</strong>, and
           <span class="more-authors" title="click to view 6 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -231,272 +241,18 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">TPS</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="Zhang2026" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Plasma GraphRAG: Physics-Grounded Parameter Selection for Gyrokinetic Simulations</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>R. Zhang</em>, F. AlMuhisen, <em>C. Wan</em>, and
-          <span class="more-authors" title="click to view 6 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '6 more authors' ? 'Z. Qu, K. Li, Y. Cho, K. Lim, V. Grandgirard, X. Garbet' : '6 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">6 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>IEEE Transactions on Plasma Science</em>, Oct 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://doi.org/10.1109/TPS.2026.3726786" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/TPS.2026.3726786"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1109/TPS.2026.3726786" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Zhang2026</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TPS.2026.3726786}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhang, R. and AlMuhisen, F. and Wan, C. and Qu, Z. and Li, K. and Cho, Y. and Lim, K. and Grandgirard, V. and Garbet, X.}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Plasma GraphRAG: Physics-Grounded Parameter Selection for Gyrokinetic Simulations}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Plasma Science}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--13}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#008B8B"><a href="https://iopscience.iop.org/journal/1009-0630" rel="external nofollow noopener" target="_blank">PST</a></abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="Shaa2026" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Surrogate modeling of drift-reduced Braginskii turbulence with resistivity-conditioned Koopman neural operators</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        A. Shaa, <em>K. Lim</em>, L. S. Chan, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'C. Guet' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Plasma Science and Technology</em>, Oct 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://doi.org/10.1088/2058-6272/ae9717" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1088/2058-6272/ae9717"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1088/2058-6272/ae9717" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Shaa2026</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1088/2058-6272/ae9717}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IOP Publishing}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Shaa, A. and Lim, K. and Chan, L. S. and Guet, C.}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Surrogate modeling of drift-reduced Braginskii turbulence with resistivity-conditioned Koopman neural operators}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Plasma Science and Technology}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#008B8B"><a href="https://iopscience.iop.org/journal/1009-0630" rel="external nofollow noopener" target="_blank">PST</a></abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="Li2026" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Accelerating Edge Turbulence Simulations: A Physics-Informed Data-Driven Closure Model for the Hasegawa–Wakatani System</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>K. Li</em>, Y. Cho, <em>X. Garbet</em>, and
-          <span class="more-authors" title="click to view 6 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '6 more authors' ? 'C. Wan, R. Varennes, K. Lim, V. Grandgirard, Z. S. Qu, Y. S. Ong' : '6 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">6 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Plasma Science and Technology</em>, Oct 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://doi.org/10.1088/2058-6272/ae936d" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1088/2058-6272/ae936d"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1088/2058-6272/ae936d" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Li2026</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1088/2058-6272/ae936d}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IOP Publishing}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Li, K. and Cho, Y. and Garbet, X. and Wan, C. and Varennes, R. and Lim, K. and Grandgirard, V. and Qu, Z. S. and Ong, Y. S.}</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Accelerating Edge Turbulence Simulations: A Physics-Informed Data-Driven Closure Model for the Hasegawa--Wakatani System}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Plasma Science and Technology}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#6A5ACD"><a href="https://www.sciencedirect.com/journal/journal-of-computational-physics" rel="external nofollow noopener" target="_blank">JCP</a></abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="Qu2026" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Electromagnetic version of the flux-driven full-F global gyrokinetic code GYSELA</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Z. S. Qu, Y. W. Cho, C. K. Chai, and
-          <span class="more-authors" title="click to view 16 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '16 more authors' ? 'M. Go, R. Bigué, P. Donnel, K. Obrejan, Y. W. Ban, L. De Gianni, G. Dif-Pradalier, X. Garbet, V. Grandgirard, K. Lim, J. Y. Ng, S. Raj, Y. Sarazin, E. Sonnendrücker, R. Varennes, C. G. Wan' : '16 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">16 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Journal of Computational Physics</em>, Oct 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://doi.org/10.1016/j.jcp.2026.115070" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1016/j.jcp.2026.115070"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1016/j.jcp.2026.115070" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden bibtex block -->
-          <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Qu2026</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.jcp.2026.115070}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{563}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{115070}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Qu, Z. S. and Cho, Y. W. and Chai, C. K. and Go, M. and Bigué, R. and Donnel, P. and Obrejan, K. and Ban, Y. W. and {De Gianni}, L. and Dif-Pradalier, G. and Garbet, X. and Grandgirard, V. and Lim, K. and Ng, J. Y. and Raj, S. and Sarazin, Y. and Sonnendrücker, E. and Varennes, R. and Wan, C. G.}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Computational Physics}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="ai">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#B31B1B"><a href="https://arxiv.org/" rel="external nofollow noopener" target="_blank">arXiv</a></abbr></div>
 
         <!-- Entry bib key -->
-        <div id="Li2027" class="col-sm-8">
+        <div id="Li2026_flow" class="col-sm-8">
         <!-- Title -->
         <div class="title">Optimal-Transport-Guided Functional Flow Matching for Turbulent Field Generation in Hilbert Space</div>
         <!-- Author -->
         <div class="author">
         
 
-        Kunpeng Li, <em>Chenguang Wan</em>, Zhisong Qu, and
+        <strong class="group-author">Kunpeng Li</strong>, <strong class="group-author">Chenguang Wan</strong>, <strong class="group-author">Zhisong Qu</strong>, and
           <span class="more-authors" title="click to view 5 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -535,7 +291,7 @@
 
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Li2027</span><span class="p">,</span>
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Li2026_flow</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">apr</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Li, Kunpeng and Wan, Chenguang and Qu, Zhisong and Lim, Kyungtak and Grandgirard, Virginie and Garbet, Xavier and Yu, Hua and Ong, Yew Soon}</span><span class="p">,</span>
@@ -546,9 +302,268 @@
         </div>
       </div>
 </li>
+</ol>
+  </section>
+  <section class="pub-group">
+  <h2 class="year">2026</h2>
+  <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="ai">
+        <div class="col-sm-2 abbr"><abbr class="badge">TPS</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Zhang2026" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Plasma GraphRAG: Physics-Grounded Parameter Selection for Gyrokinetic Simulations</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong class="group-author">R. Zhang</strong>, F. AlMuhisen, <strong class="group-author">C. Wan</strong>, and
+          <span class="more-authors" title="click to view 6 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '6 more authors' ? 'Z. Qu, K. Li, Y. Cho, K. Lim, V. Grandgirard, X. Garbet' : '6 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">6 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>IEEE Transactions on Plasma Science</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://doi.org/10.1109/TPS.2026.3726786" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/TPS.2026.3726786"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/TPS.2026.3726786" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Zhang2026</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TPS.2026.3726786}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Zhang, R. and AlMuhisen, F. and Wan, C. and Qu, Z. and Li, K. and Cho, Y. and Lim, K. and Grandgirard, V. and Garbet, X.}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Plasma GraphRAG: Physics-Grounded Parameter Selection for Gyrokinetic Simulations}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Plasma Science}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--13}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row" data-topics="ai edge">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#008B8B"><a href="https://iopscience.iop.org/journal/1009-0630" rel="external nofollow noopener" target="_blank">PST</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Shaa2026" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Surrogate modeling of drift-reduced Braginskii turbulence with resistivity-conditioned Koopman neural operators</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong class="group-author">A. Shaa</strong>, <strong class="group-author">K. Lim</strong>, <strong class="group-author">L. S. Chan</strong>, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'C. Guet' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Plasma Science and Technology</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://doi.org/10.1088/2058-6272/ae9717" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1088/2058-6272/ae9717"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1088/2058-6272/ae9717" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Shaa2026</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1088/2058-6272/ae9717}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IOP Publishing}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Shaa, A. and Lim, K. and Chan, L. S. and Guet, C.}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Surrogate modeling of drift-reduced Braginskii turbulence with resistivity-conditioned Koopman neural operators}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Plasma Science and Technology}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row" data-topics="ai edge">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#008B8B"><a href="https://iopscience.iop.org/journal/1009-0630" rel="external nofollow noopener" target="_blank">PST</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Li2026" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Accelerating Edge Turbulence Simulations: A Physics-Informed Data-Driven Closure Model for the Hasegawa–Wakatani System</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong class="group-author">K. Li</strong>, <strong class="group-author">Y. Cho</strong>, <strong class="group-author">X. Garbet</strong>, and
+          <span class="more-authors" title="click to view 6 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '6 more authors' ? 'C. Wan, R. Varennes, K. Lim, V. Grandgirard, Z. S. Qu, Y. S. Ong' : '6 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">6 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Plasma Science and Technology</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://doi.org/10.1088/2058-6272/ae936d" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1088/2058-6272/ae936d"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1088/2058-6272/ae936d" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Li2026</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1088/2058-6272/ae936d}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IOP Publishing}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Li, K. and Cho, Y. and Garbet, X. and Wan, C. and Varennes, R. and Lim, K. and Grandgirard, V. and Qu, Z. S. and Ong, Y. S.}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Accelerating Edge Turbulence Simulations: A Physics-Informed Data-Driven Closure Model for the Hasegawa--Wakatani System}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Plasma Science and Technology}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row" data-topics="core">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#6A5ACD"><a href="https://www.sciencedirect.com/journal/journal-of-computational-physics" rel="external nofollow noopener" target="_blank">JCP</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Qu2026" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Electromagnetic version of the flux-driven full-F global gyrokinetic code GYSELA</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong class="group-author">Z. S. Qu</strong>, <strong class="group-author">Y. W. Cho</strong>, <strong class="group-author">C. K. Chai</strong>, and
+          <span class="more-authors" title="click to view 16 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '16 more authors' ? 'M. Go, R. Bigué, P. Donnel, K. Obrejan, Y. W. Ban, L. De Gianni, G. Dif-Pradalier, X. Garbet, V. Grandgirard, K. Lim, J. Y. Ng, S. Raj, Y. Sarazin, E. Sonnendrücker, R. Varennes, C. G. Wan' : '16 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">16 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Journal of Computational Physics</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://doi.org/10.1016/j.jcp.2026.115070" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1016/j.jcp.2026.115070"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1016/j.jcp.2026.115070" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Qu2026</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.jcp.2026.115070}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Elsevier}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{563}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{115070}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Qu, Z. S. and Cho, Y. W. and Chai, C. K. and Go, M. and Bigué, R. and Donnel, P. and Obrejan, K. and Ban, Y. W. and {De Gianni}, L. and Dif-Pradalier, G. and Garbet, X. and Grandgirard, V. and Lim, K. and Ng, J. Y. and Raj, S. and Sarazin, Y. and Sonnendrücker, E. and Varennes, R. and Wan, C. G.}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Computational Physics}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row" data-topics="core">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#1B5E20"><a href="https://pubs.aip.org/aip/pop" rel="external nofollow noopener" target="_blank">PoP</a></abbr></div>
 
         <!-- Entry bib key -->
@@ -559,7 +574,7 @@
         <div class="author">
         
 
-        R. Avril, E. Gravier, <em>K. Lim</em>, and
+        R. Avril, E. Gravier, <strong class="group-author">K. Lim</strong>, and
           <span class="more-authors" title="click to view 8 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -592,13 +607,14 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1063/5.0316178"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1063/5.0316178" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Avril2026</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1063/5.0316178}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">mar</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{AIP Publishing}</span><span class="p">,</span>
@@ -615,7 +631,7 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="core">
         <div class="col-sm-2 abbr"><abbr class="badge">PPCF</abbr></div>
 
         <!-- Entry bib key -->
@@ -626,7 +642,7 @@
         <div class="author">
         
 
-        L Gianni, P Donnel, X Garbet, and
+        L Gianni, P Donnel, <strong class="group-author">X Garbet</strong>, and
           <span class="more-authors" title="click to view 11 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -645,7 +661,7 @@
         
         
         <div class="periodical">
-          <em>Plasma Physics and Controlled Fusion</em>, Mar 2026
+          <em>Plasma Physics and Controlled Fusion</em>, Jun 2026
         </div>
         <div class="periodical">
           
@@ -654,18 +670,24 @@
           <!-- Links/Buttons -->
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://hal.science/hal-05477865" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://doi.org/10.1088/1361-6587/ae6bba" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://hal.science/hal-05477865" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1088/1361-6587/ae6bba"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1088/1361-6587/ae6bba" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">deGianni2026</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1088/1361-6587/ae6bba}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">jun</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{68}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{6}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{065008}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IOP Publishing}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{de Gianni, L and Donnel, P and Garbet, X and Sarazin, Y and Bigu{\'e}, R and Dif-Pradalier, G and Grandgirard, V and Obrejan, K and Protais, M and Ng, J Y and Cho, Y and Qu, Z and Merlo, G and Balestri, A}</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Linear analysis of the effect of shaping on trapped electron mode instability: from a reduced model to gyro-kinetics}</span><span class="p">,</span>
@@ -677,7 +699,7 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="ai">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">NF</a></abbr></div>
 
         <!-- Entry bib key -->
@@ -688,7 +710,7 @@
         <div class="author">
         
 
-        <em>Chenguang Wan</em>, Feda Almuhisen, Philippe Moreau, and
+        <strong class="group-author">Chenguang Wan</strong>, Feda Almuhisen, Philippe Moreau, and
           <span class="more-authors" title="click to view 7 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -744,7 +766,7 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="ai edge">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#B45309"><a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics" rel="external nofollow noopener" target="_blank">JPP</a></abbr></div>
 
         <!-- Entry bib key -->
@@ -755,7 +777,7 @@
         <div class="author">
         
 
-        Andreas Solheim, <em>Kyungtak Lim</em>, Simone Deparis, and
+        Andreas Solheim, <strong class="group-author">Kyungtak Lim</strong>, Simone Deparis, and
           <span class="more-authors" title="click to view 1 more author" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -811,7 +833,7 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="edge">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#B45309"><a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics" rel="external nofollow noopener" target="_blank">JPP</a></abbr></div>
 
         <!-- Entry bib key -->
@@ -822,7 +844,7 @@
         <div class="author">
         
 
-        <em>Kyungtak Lim</em>, Paolo Ricci, and Leonard Lebrun</div>
+        <strong class="group-author">Kyungtak Lim</strong>, Paolo Ricci, and Leonard Lebrun</div>
 
         <!-- Journal/Book title and date -->
         
@@ -865,7 +887,7 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="core ai">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">NF</a></abbr></div>
 
         <!-- Entry bib key -->
@@ -876,7 +898,7 @@
         <div class="author">
         
 
-        J. C. Huang, Z. S. Qu, <em>R. Varennes</em>, and
+        <strong class="group-author">J. C. Huang</strong>, <strong class="group-author">Z. S. Qu</strong>, <strong class="group-author">R. Varennes</strong>, and
           <span class="more-authors" title="click to view 6 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -931,13 +953,14 @@
       </div>
 </li>
 </ol>
-
+  </section>
+  <section class="pub-group">
   <h2 class="year">2025</h2>
   <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">Nuclear Fusion</a></abbr></div>
+      <div class="row" data-topics="core ai">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">NF</a></abbr></div>
 
         <!-- Entry bib key -->
         <div id="Varennes_2025" class="col-sm-8">
@@ -947,7 +970,7 @@
         <div class="author">
         
 
-        <em>R. Varennes</em>, <em>Z.S. Qu</em>, <em>Y.W. Cho</em>, and
+        <strong class="group-author">R. Varennes</strong>, <strong class="group-author">Z.S. Qu</strong>, <strong class="group-author">Y.W. Cho</strong>, and
           <span class="more-authors" title="click to view 4 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -1003,8 +1026,8 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">Nuclear Fusion</a></abbr></div>
+      <div class="row" data-topics="core ai">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">NF</a></abbr></div>
 
         <!-- Entry bib key -->
         <div id="Wan_2025" class="col-sm-8">
@@ -1014,7 +1037,7 @@
         <div class="author">
         
 
-        <em>Chenguang Wan</em>, Youngwoo Cho, Zhisong Qu, and
+        <strong class="group-author">Chenguang Wan</strong>, <strong class="group-author">Youngwoo Cho</strong>, <strong class="group-author">Zhisong Qu</strong>, and
           <span class="more-authors" title="click to view 7 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -1033,7 +1056,7 @@
         
         
         <div class="periodical">
-          <em>Nucl. Fusion</em>, Apr 2025
+          <em>Nuclear Fusion</em>, Apr 2025
         </div>
         <div class="periodical">
           
@@ -1057,7 +1080,7 @@
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Wan, Chenguang and Cho, Youngwoo and Qu, Zhisong and Camenen, Yann and Varennes, Robin and Lim, Kyungtak and Li, Kunpeng and Li, Jiangang and Li, Yanlong and Garbet, Xavier}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">apr</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nucl. Fusion}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nuclear Fusion}</span><span class="p">,</span>
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{65}</span><span class="p">,</span>
   <span class="na">number</span> <span class="p">=</span> <span class="s">{5}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{054001}</span><span class="p">,</span>
@@ -1070,7 +1093,7 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="mhd">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#1B5E20"><a href="https://pubs.aip.org/aip/pop" rel="external nofollow noopener" target="_blank">PoP</a></abbr></div>
 
         <!-- Entry bib key -->
@@ -1081,7 +1104,7 @@
         <div class="author">
         
 
-        Zhisong Qu, Yao Zhou, Arunav Kumar, and
+        <strong class="group-author">Zhisong Qu</strong>, Yao Zhou, Arunav Kumar, and
           <span class="more-authors" title="click to view 3 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -1135,8 +1158,8 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">Nuclear Fusion</a></abbr></div>
+      <div class="row" data-topics="core">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">NF</a></abbr></div>
 
         <!-- Entry bib key -->
         <div id="Cho_2025" class="col-sm-8">
@@ -1146,7 +1169,7 @@
         <div class="author">
         
 
-        <em>Y.W. Cho</em>, <em>X. Garbet</em>, <em>R. Varennes</em>, and
+        <strong class="group-author">Y.W. Cho</strong>, <strong class="group-author">X. Garbet</strong>, <strong class="group-author">R. Varennes</strong>, and
           <span class="more-authors" title="click to view 4 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -1165,7 +1188,7 @@
         
         
         <div class="periodical">
-          <em>Nucl. Fusion</em>, Feb 2025
+          <em>Nuclear Fusion</em>, Feb 2025
         </div>
         <div class="periodical">
           
@@ -1189,7 +1212,7 @@
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Cho, Y.W. and Garbet, X. and Varennes, R. and Qu, Z.S. and Donnel, P. and Obrejan, K. and Grandgirard, V.}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">feb</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nucl. Fusion}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nuclear Fusion}</span><span class="p">,</span>
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{65}</span><span class="p">,</span>
   <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{036024}</span><span class="p">,</span>
@@ -1201,13 +1224,14 @@
       </div>
 </li>
 </ol>
-
+  </section>
+  <section class="pub-group">
   <h2 class="year">2024</h2>
   <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">Nuclear Fusion</a></abbr></div>
+      <div class="row" data-topics="mhd">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">NF</a></abbr></div>
 
         <!-- Entry bib key -->
         <div id="Qu_2024" class="col-sm-8">
@@ -1217,13 +1241,13 @@
         <div class="author">
         
 
-        <em>Z.S. Qu</em>, <em>X. Garbet</em>, and H. Hezaveh</div>
+        <strong class="group-author">Z.S. Qu</strong>, <strong class="group-author">X. Garbet</strong>, and H. Hezaveh</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>Nucl. Fusion</em>, Dec 2024
+          <em>Nuclear Fusion</em>, Dec 2024
         </div>
         <div class="periodical">
           
@@ -1248,7 +1272,7 @@
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IOP Publishing}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nucl. Fusion}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nuclear Fusion}</span><span class="p">,</span>
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{65}</span><span class="p">,</span>
   <span class="na">number</span> <span class="p">=</span> <span class="s">{2}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{026010}</span><span class="p">,</span>
@@ -1260,7 +1284,7 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="edge">
         <div class="col-sm-2 abbr"><abbr class="badge">PPCF</abbr></div>
 
         <!-- Entry bib key -->
@@ -1271,7 +1295,7 @@
         <div class="author">
         
 
-        <em>R. Varennes</em>, G. Dif-Pradalier, P. Ghendrih, and
+        <strong class="group-author">R. Varennes</strong>, G. Dif-Pradalier, P. Ghendrih, and
           <span class="more-authors" title="click to view 5 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -1327,8 +1351,8 @@
 </li>
 <li>
 <!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">Nuclear Fusion</a></abbr></div>
+      <div class="row" data-topics="core">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">NF</a></abbr></div>
 
         <!-- Entry bib key -->
         <div id="Garbet_2024" class="col-sm-8">
@@ -1338,7 +1362,7 @@
         <div class="author">
         
 
-        <em>X. Garbet</em>, P. Donnel, L. De Gianni, and
+        <strong class="group-author">X. Garbet</strong>, P. Donnel, L. De Gianni, and
           <span class="more-authors" title="click to view 7 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -1393,11 +1417,12 @@
       </div>
 </li>
 </ol>
-
+  </section>
+  <section class="pub-group">
   <h2 class="year">2023</h2>
   <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="core">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#00005c"><a href="https://hal.science/" rel="external nofollow noopener" target="_blank">HAL</a></abbr></div>
 
         <!-- Entry bib key -->
@@ -1408,7 +1433,7 @@
         <div class="author">
         
 
-        <em>X. Garbet</em>, and M. Lesur</div>
+        <strong class="group-author">X. Garbet</strong>, and M. Lesur</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1450,14 +1475,13 @@
         </div>
       </div>
 </li></ol>
-
-
-<h2 class="year">before 2023
-</h2>
-<ol class="bibliography"><li>
+  </section>
+  <section class="pub-group">
+  <h2 class="year">Before 2023</h2>
+  <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">Nuclear Fusion</a></abbr></div>
+      <div class="row" data-topics="core">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#0577b9"><a href="https://iopscience.iop.org/journal/0029-5515" rel="external nofollow noopener" target="_blank">NF</a></abbr></div>
 
         <!-- Entry bib key -->
         <div id="Garbet_2010" class="col-sm-8">
@@ -1467,7 +1491,7 @@
         <div class="author">
         
 
-        <em>X. Garbet</em>, Y. Idomura, L. Villard, and
+        <strong class="group-author">X. Garbet</strong>, Y. Idomura, L. Villard, and
           <span class="more-authors" title="click to view 1 more author" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -1495,13 +1519,13 @@
           <!-- Links/Buttons -->
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="http://doi.org/10.1088/0029-5515/50/4/043002" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://doi.org/10.1088/0029-5515/50/4/043002" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
             <a href="https://www.researchgate.net/publication/312944611_Gyrokinetic_simulations_of_turbulent_transport" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1088/0029-5515/50/4/043002"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1088/0029-5515/50/4/043002" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden bibtex block -->
@@ -1515,13 +1539,51 @@
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{043002}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2010}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IOP Publishing}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1088/0029-5515/50/4/043002}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
       </div>
 </li></ol>
+  </section>
+
+<p class="pub-filter-empty" hidden="">No publications in this area yet.</p>
 
 </div>
+
+<script>
+  // Topic filter: shows only papers tagged with the chosen area (tags are the "research_area" field in papers.bib)
+  (function () {
+    var buttons = document.querySelectorAll('.pub-filter-btn');
+    var groups = document.querySelectorAll('.publications .pub-group');
+    var empty = document.querySelector('.pub-filter-empty');
+    function apply(topic) {
+      var shownTotal = 0;
+      groups.forEach(function (group) {
+        var shown = 0;
+        group.querySelectorAll('ol.bibliography > li').forEach(function (li) {
+          var row = li.querySelector('.row[data-topics]');
+          var tags = row ? row.getAttribute('data-topics').split(/\s+/) : [];
+          var match = topic === 'all' || tags.indexOf(topic) !== -1;
+          li.hidden = !match;
+          if (match) shown++;
+        });
+        group.hidden = shown === 0;
+        shownTotal += shown;
+      });
+      empty.hidden = shownTotal !== 0;
+    }
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        buttons.forEach(function (b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
+        apply(btn.getAttribute('data-topic'));
+      });
+    });
+  })();
+</script>
+
 
           </article>
 

@@ -736,6 +736,44 @@ footer.sticky-bottom {
   }
 }
 
+.pub-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.pub-filter .pub-filter-btn {
+  width: auto;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.85rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--global-theme-color);
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.pub-filter .pub-filter-btn:hover {
+  background: var(--global-divider-color);
+}
+.pub-filter .pub-filter-btn.active {
+  background: var(--global-theme-color);
+  color: var(--global-bg-color);
+}
+.pub-filter .pub-filter-btn:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+
+.publications .author .group-author {
+  font-weight: 700;
+}
+
+.pub-filter-empty {
+  margin-top: 3rem;
+  color: var(--global-text-color-light);
+}
+
 .publications {
   margin-top: 2rem;
 }
