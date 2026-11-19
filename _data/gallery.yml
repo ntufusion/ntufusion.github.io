@@ -37,6 +37,12 @@
     - file: 2024-10-group-photo.jpg
       caption: The group in front of the School of Physical and Mathematical Sciences
 
+- title: Coffee break
+  date: April 2024
+  photos:
+    - file: 2024-04-spms-canteen-coffee-break.jpg
+      caption: Coffee break at the SPMS canteen
+
 - title: Group meeting
   date: August 2023
   photos:
