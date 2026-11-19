@@ -9,14 +9,6 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 
-<div class="pub-filter" role="group" aria-label="Filter publications by research area">
-  <button type="button" class="pub-filter-btn active" data-topic="all" aria-pressed="true">All</button>
-  <button type="button" class="pub-filter-btn" data-topic="core" aria-pressed="false">Core turbulence &amp; transport</button>
-  <button type="button" class="pub-filter-btn" data-topic="edge" aria-pressed="false">Edge &amp; SOL</button>
-  <button type="button" class="pub-filter-btn" data-topic="mhd" aria-pressed="false">MHD &amp; energetic particles</button>
-  <button type="button" class="pub-filter-btn" data-topic="ai" aria-pressed="false">AI &amp; data-driven models</button>
-</div>
-
 <div class="publications">
 
 {%- capture preprints %}{% bibliography -f papers -q @*[is_preprint=true]* %}{% endcapture %}
@@ -46,39 +38,4 @@ nav_order: 1
   </section>
 {%- endif %}
 
-<p class="pub-filter-empty" hidden>No publications in this area yet.</p>
-
 </div>
-
-<script>
-  // Topic filter: shows only papers tagged with the chosen area (tags are the "research_area" field in papers.bib)
-  (function () {
-    var buttons = document.querySelectorAll('.pub-filter-btn');
-    var groups = document.querySelectorAll('.publications .pub-group');
-    var empty = document.querySelector('.pub-filter-empty');
-    function apply(topic) {
-      var shownTotal = 0;
-      groups.forEach(function (group) {
-        var shown = 0;
-        group.querySelectorAll('ol.bibliography > li').forEach(function (li) {
-          var row = li.querySelector('.row[data-topics]');
-          var tags = row ? row.getAttribute('data-topics').split(/\s+/) : [];
-          var match = topic === 'all' || tags.indexOf(topic) !== -1;
-          li.hidden = !match;
-          if (match) shown++;
-        });
-        group.hidden = shown === 0;
-        shownTotal += shown;
-      });
-      empty.hidden = shownTotal !== 0;
-    }
-    buttons.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        buttons.forEach(function (b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
-        btn.classList.add('active');
-        btn.setAttribute('aria-pressed', 'true');
-        apply(btn.getAttribute('data-topic'));
-      });
-    });
-  })();
-</script>
