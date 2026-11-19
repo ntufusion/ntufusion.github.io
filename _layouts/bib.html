@@ -1,7 +1,7 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-topics="{{ entry.research_area }}">
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
@@ -42,10 +42,15 @@
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
-          {%- if site.scholar.last_name contains author_last_name -%}
-            {%- if site.scholar.first_name contains author.first -%}
+          {%- comment -%} Group members (see _data/group_authors.yml) are matched on last name + first initial {%- endcomment -%}
+          {%- assign author_clean_last = author_last_name | remove: "{" | remove: "}" -%}
+          {%- assign author_clean_first = author.first | remove: "{" | remove: "}" | strip -%}
+          {%- assign author_key = author_clean_first | slice: 0 | upcase | prepend: "|" | prepend: author_clean_last -%}
+          {%- assign author_full_key = author_clean_last | append: "|" | append: author_clean_first -%}
+          {%- if site.data.group_authors.members contains author_key -%}
+            {%- unless site.data.group_authors.exclude contains author_full_key -%}
               {%- assign author_is_self = true -%}
-            {%- endif -%}
+            {%- endunless -%}
           {%- endif -%}
           {%- assign coauthor_url = nil -%}
           {%- if site.data.coauthors[author_last_name] -%}
@@ -62,7 +67,7 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}</em>
+            <strong class="group-author">{{author.first}} {{author.last}}</strong>
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
