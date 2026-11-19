@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications by year, most recent first. Group members are shown in bold.
+description: Publications by year, most recent first.
 first_year: 2023 # earliest year with its own heading; older papers go under "Before ..."
 nav: true
 nav_order: 1
