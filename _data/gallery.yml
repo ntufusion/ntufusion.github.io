@@ -7,6 +7,12 @@
 #
 # Fields: title (album name), date (shown under the title), photos (file + caption for each).
 
+- title: Farewell for Adrien
+  date: November 2026
+  photos:
+    - file: 2026-11-adrien-farewell.jpg
+      caption: An evening out to say goodbye to Adrien
+
 - title: Group photo with French colleagues
   date: November 2026
   photos:
