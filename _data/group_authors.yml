@@ -1,0 +1,43 @@
+# Current and former group members. In publication author lists, their names link to
+# their page on the People site (/people/<page>/).
+#
+# Each key is "Last name|First initial", which covers name forms such as "Z. S. Qu",
+# "Qu, Z.S." and "Zhisong Qu". The value is the person's file name in _people/
+# (without .md). Leave the value empty for former members who no longer have a page:
+# their names then stay as plain text. Add new members here when they join.
+members:
+  "Garbet|X": Xavier
+  "Guet|C": Claude
+  "Qu|Z": Zhisong
+  "Lim|K": Kyungtak
+  "Hall-Chen|V": Valerian
+  "Wan|C": Chenguang
+  "Li|K": Kunpeng
+  "Zhang|R": Ruichen
+  "Zhang|Y": Yanjie
+  "Zhao|R": Rui
+  "Mao|H": Haotian
+  "Raj|S": Shrish
+  "Shaa|A": Ameir
+  "Huang|Z": Zhangsheng
+  "Huang|J": Jingcheng
+  "Jayalekshmi|A": Ajay
+  "Ajay|C": Ajay            # appears as "C. J. Ajay"
+  "Ban|Y": Yvonne
+  "Chan|L": LongShan
+  "Ibrahim|A": Ahmad        # appears as "A. Ibrahim"
+  "Chai|C": ChangKai
+  "Go|M": Michael
+  "Ng|J": JingYang
+  "Chen|J": Jiayang
+  "Song|J": Jinhua
+  "Aksoy|H": Haluk
+  "Htet|T": Seth
+  "Rzesacz|T": Tim
+  "Chng|S": Samuel
+  "Varennes|R":             # Robin Varennes (alumni, no page)
+  "Cho|Y":                  # Youngwoo Cho (alumni, no page)
+
+# Exact "Last|First" names to leave alone: other people who share a last name and initial with a member.
+exclude:
+  - Huang|Jia

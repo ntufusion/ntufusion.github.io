@@ -42,6 +42,15 @@
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+          {%- comment -%} Group members (see _data/group_authors.yml): match on last name + first initial, link to their People page {%- endcomment -%}
+          {%- assign member_page = nil -%}
+          {%- assign author_clean_last = author_last_name | remove: "{" | remove: "}" -%}
+          {%- assign author_clean_first = author.first | remove: "{" | remove: "}" | strip -%}
+          {%- assign author_key = author_clean_first | slice: 0 | upcase | prepend: "|" | prepend: author_clean_last -%}
+          {%- assign author_full_key = author_clean_last | append: "|" | append: author_clean_first -%}
+          {%- unless site.data.group_authors.exclude contains author_full_key -%}
+            {%- assign member_page = site.data.group_authors.members[author_key] -%}
+          {%- endunless -%}
           {%- assign coauthor_url = nil -%}
           {%- if site.data.coauthors[author_last_name] -%}
             {%- for coauthor in site.data.coauthors[author_last_name] -%}
@@ -56,7 +65,9 @@
             {%- if forloop.first == false -%},&nbsp;{%- endif -%}
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
-          {%- if author_is_self -%}
+          {%- if member_page -%}
+            <a class="group-author" href="{{ '/people/' | append: member_page | append: '/' | relative_url }}">{{author.first}} {{author.last}}</a>
+          {%- elsif author_is_self -%}
             {{author.first}} {{author.last}}
           {%- else -%}
             {%- if coauthor_url -%}
