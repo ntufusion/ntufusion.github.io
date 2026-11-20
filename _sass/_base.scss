@@ -306,6 +306,26 @@ blockquote {
   }
 }
 
+// Full NTU logo (crest + "Nanyang Technological University Singapore") in the top bar
+.navbar-ntu-logo {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+
+  img {
+    height: 2.6rem;
+    width: auto;
+    max-width: none;
+  }
+}
+
+// The logo's text is dark blue, so give it a white backing in dark mode
+html[data-theme="dark"] .navbar-ntu-logo img {
+  background: #fff;
+  padding: 0.2rem 0.35rem;
+  border-radius: 4px;
+}
+
 .navbar-toggler {
   .icon-bar {
     display: block;
