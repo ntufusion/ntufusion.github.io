@@ -2,7 +2,7 @@
 layout: page
 permalink: /gallery/
 title: Gallery
-description: Group photos, workshops and life in our group.
+description: Group photos, workshops and life in the NTU Plasma Theory group.
 nav: true
 nav_order: 6
 ---
