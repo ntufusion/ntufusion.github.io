@@ -7,23 +7,8 @@
         <div class="container">
           <a class="navbar-ntu-logo" href="https://www.ntu.edu.sg"><img src="{{ '/assets/img/ntu_logo_navbar.png' | relative_url }}" alt="Nanyang Technological University Singapore"></a>
           &nbsp;
-          {% if page.permalink != '/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-            {%- if site.title == "blank" -%}
-              {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
-              {%- endif -%}
-              {%- if site.middle_name -%}
-                {{- site.middle_name -}}&nbsp;
-              {%- endif -%}
-              {%- if site.last_name -%}
-                {{- site.last_name -}}
-              {%- endif -%}
-            {%- else -%}
-              {{- site.title -}}
-            {%- endif -%}
-          </a>
-          {%- elsif site.enable_navbar_social -%}
+          {%- comment -%} The site title ("NTU Plasma Theory") is no longer shown next to the NTU logo {%- endcomment -%}
+          {%- if site.enable_navbar_social -%}
           <!-- Social Icons -->
           <div class="navbar-brand social">
             {% include social.html %}
